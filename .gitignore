@@ -1,0 +1,18 @@
+# Blender recovery files
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+*.blend~
+
+# Blender temporary data and caches, in any project folder
+**/cache/
+**/temp/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Operating system metadata
+.DS_Store
+Thumbs.db

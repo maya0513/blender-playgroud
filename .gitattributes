@@ -1,0 +1,2 @@
+# Blender project files are large binary assets; track them with Git LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
