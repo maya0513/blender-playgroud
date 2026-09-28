@@ -1,0 +1,2 @@
+# Runtime lock; its stable inode must stay local.
+review/logs/.pipeline.lock

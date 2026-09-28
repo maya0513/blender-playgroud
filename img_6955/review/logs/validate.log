@@ -1,13 +1,20 @@
 Command: ['blender', '-b', '/home/maya0513/workspace/blender-playgroud/img_6955/hamamachi_breakwater.blend', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/img_6955/scripts/validate_scene.py']
-00:01.364  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/img_6955/hamamachi_breakwater.blend"
+00:01.367  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/img_6955/hamamachi_breakwater.blend"
 {
   "status": "PASS",
-  "revision": 2,
-  "scene_sha256": "a6b8cbf2067cb94b48924bcfc27186a2570ccb08dda96a09d06cadb3570ecc6b",
-  "solid_mesh_count": 1247,
-  "contact_count": 1002,
-  "contact_passed": 1002,
-  "collision_count": 313,
+  "revision": 4,
+  "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+  "visual_audit": {
+    "status": "PASS",
+    "node_trees_checked": 18,
+    "nodes_checked": 135,
+    "errors": [],
+    "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+  },
+  "solid_mesh_count": 1481,
+  "contact_count": 1070,
+  "contact_passed": 1070,
+  "collision_count": 331,
   "ferry": {
     "keel_z": -4.399999618530273,
     "waterline_z": -1.8,
@@ -21,3 +28,5 @@ Command: ['blender', '-b', '/home/maya0513/workspace/blender-playgroud/img_6955/
 Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
 
 Blender quit
+
+Elapsed: 2.321s; exit code: 0

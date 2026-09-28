@@ -1,5 +1,5 @@
 """Build a coherent metric scene for future walkable-map development.
-Blender 5.2; no add-ons. Photo projection restores the calibrated view; structural geometry remains editable.
+Blender 5.2; no add-ons. Procedural surfaces and lighting; no photograph participates in rendering.
 """
 import bpy,bmesh,math,random,json,time
 from pathlib import Path
@@ -7,7 +7,7 @@ from mathutils import Vector
 import sys
 sys.dont_write_bytecode=True
 sys.path.insert(0,str(Path(__file__).resolve().parent))
-from project import ROOT, REPORTS as OUT, ensure_directories, write_report
+from project import ROOT, REPORTS as OUT, ensure_directories, write_report, sha256
 ensure_directories()
 (OUT/'verification.json').unlink(missing_ok=True)
 (OUT/'appearance.json').unlink(missing_ok=True)
@@ -42,12 +42,12 @@ glass=material('Dark marine glass',(.085,.17,.22),.16,.3);glass.node_tree.nodes[
 watermat=material('Sea base material',(.11,.25,.34),.18,.25);wn=watermat.node_tree.nodes;wl=watermat.node_tree.links;wbs=wn.get('Principled BSDF');wbs.inputs['IOR'].default_value=1.333
 coord=wn.new('ShaderNodeTexCoord');noise=wn.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=2.4;noise.inputs['Detail'].default_value=3;wl.new(coord.outputs['Object'],noise.inputs['Vector']);bump=wn.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.35;bump.inputs['Distance'].default_value=.07;wl.new(noise.outputs['Fac'],bump.inputs['Height']);wl.new(bump.outputs[0],wbs.inputs['Normal'])
 grassmat=material('Coastal grass',(.30,.35,.15),.95)
-soil=material('Planter soil',(.23,.20,.14),.96)
+soil=material('Harbor seabed sediment',(.23,.20,.14),.96)
 landmat=material('Distant hazy land',(.36,.47,.48),1)
 tilemat=material('Pavilion ceramic tile',(.60,.60,.56),.65,grain=.001)
 # World-space materials stay attached to the environment from every camera.
 paving=material('Metric checker paving — world anchored',(.35,.32,.30),.9,grain=.005)
-n=paving.node_tree.nodes;l=paving.node_tree.links;b=n.get('Principled BSDF');tc=n.new('ShaderNodeTexCoord');mapping=n.new('ShaderNodeVectorRotate');mapping.rotation_type='AXIS_ANGLE';mapping.inputs['Axis'].default_value=(0,0,1);mapping.inputs['Angle'].default_value=math.radians(17);l.new(tc.outputs['Object'],mapping.inputs['Vector']);checker=n.new('ShaderNodeTexChecker');checker.inputs['Scale'].default_value=1/2.7;checker.inputs['Color1'].default_value=(*lin((.30,.28,.27)),1);checker.inputs['Color2'].default_value=(*lin((.59,.55,.51)),1);l.new(mapping.outputs[0],checker.inputs[0]);l.new(checker.outputs['Color'],b.inputs['Base Color'])
+n=paving.node_tree.nodes;l=paving.node_tree.links;b=n.get('Principled BSDF');tc=n.new('ShaderNodeTexCoord');mapping=n.new('ShaderNodeVectorRotate');mapping.rotation_type='AXIS_ANGLE';mapping.inputs['Axis'].default_value=(0,0,1);mapping.inputs['Angle'].default_value=math.radians(-17);l.new(tc.outputs['Object'],mapping.inputs['Vector']);checker=n.new('ShaderNodeTexChecker');checker.inputs['Scale'].default_value=1/2.7;checker.inputs['Color1'].default_value=(*lin((.30,.28,.27)),1);checker.inputs['Color2'].default_value=(*lin((.59,.55,.51)),1);l.new(mapping.outputs[0],checker.inputs[0]);l.new(checker.outputs['Color'],b.inputs['Base Color'])
 # Choose XY / XZ / YZ coordinates by face normal for square tile joints.
 n=tilemat.node_tree.nodes;l=tilemat.node_tree.links;b=n.get('Principled BSDF');geo=n.new('ShaderNodeTexCoord');brick=n.new('ShaderNodeTexBrick');brick.inputs['Color1'].default_value=(*lin((.66,.65,.61)),1);brick.inputs['Color2'].default_value=(*lin((.56,.57,.54)),1);brick.inputs['Mortar'].default_value=(*lin((.22,.24,.24)),1);brick.inputs['Scale'].default_value=3.3;brick.inputs['Mortar Size'].default_value=.012;brick.offset=0;brick.inputs['Brick Width'].default_value=.5;brick.inputs['Row Height'].default_value=.5;l.new(brick.outputs['Color'],b.inputs['Base Color'])
 xyz=n.new('ShaderNodeSeparateXYZ');l.new(geo.outputs['Object'],xyz.inputs[0]);normal=n.new('ShaderNodeNewGeometry');ns=n.new('ShaderNodeSeparateXYZ');l.new(normal.outputs['Normal'],ns.inputs[0])
@@ -87,7 +87,15 @@ def stairmesh(name,x0,x1,y0,count,rise,tread,zbase,col):
  o=mesh(name,v,f,concrete,col,collision=True);o['step_count']=count;o['riser_m']=rise;o['tread_m']=tread;stairs.append({'name':name,'x_center':(x0+x1)/2,'y_start':y0,'count':count,'rise':rise,'tread':tread,'base':zbase,'frame':FRAME.name if FRAME else None});return o
 
 # Closed landmass: plaza, structural fill, vertical quay walls and an open inland extension.
-outline=[(-9,-12),(19,-12),(19,25),(15,32),(-14,79),(-35,97),(-24,48),(-10,5)]
+# The toilet rear exterior and adjacent quay share one construction line.
+TOILET_POS=(11.0,18.23,0);TOILET_YAW=-14.;TOILET_REAR_X=2.1
+ca=math.cos(math.radians(TOILET_YAW));sa=math.sin(math.radians(TOILET_YAW))
+def toilet_world(x,y):return (TOILET_POS[0]+ca*x-sa*y,TOILET_POS[1]+sa*x+ca*y)
+def rear_line_x(y):return TOILET_POS[0]+(TOILET_REAR_X-sa*(y-TOILET_POS[1]))/ca
+# Intersect the rear-wall extension with the existing (19,25) -> (15,32) edge.
+join_y=(19+100/7-TOILET_POS[0]-TOILET_REAR_X/ca-sa*TOILET_POS[1]/ca)/(4/7-sa/ca)
+quay_rear_line=[(rear_line_x(-12),-12),(rear_line_x(join_y),join_y)]
+outline=[(-4,-12),*quay_rear_line,(15,32),(-14,79),(-28,97),(-20.5,55),(-4.4,5)]
 terrain=prism('Plaza and solid quay foundation',outline,-8,0,paving,GROUND,True);terrain.data.materials.append(wallmat)
 for p in terrain.data.polygons:
  if p.normal.z<.5:p.material_index=1
@@ -100,9 +108,26 @@ SEA_LEVEL=-1.8
 sea=mesh('Sea surface at -1.8m',[(-12000,-12000,SEA_LEVEL),(12000,-12000,SEA_LEVEL),(12000,16000,SEA_LEVEL),(-12000,16000,SEA_LEVEL)],[(0,1,2,3)],watermat,NATURE,'surface');sea['water_level_m']=SEA_LEVEL
 
 # Edge guards rooted on the actual plaza boundary; no levitating posts.
-def fence(name,a,b,wallheight=.20):
+def fence(name,a,b,wallheight=.20,solid_wall=False):
  a,b=Vector((*a,0)),Vector((*b,0));length=(b-a).length;direction=(b-a).normalized();normal=Vector((-direction.y,direction.x,0));inset=normal*.12;a+=inset;b+=inset
  base=beam(name+' curb',a+Vector((0,0,wallheight/2)),b+Vector((0,0,wallheight/2)),.24,wallheight,wallmat,RAIL,True)
+ if solid_wall:
+  # Photo: high concrete parapet, short blue brackets and one broad white rail.
+  pier_count=max(1,math.ceil(length/4.2))
+  pier_distances=[length*(i+.5)/pier_count for i in range(pier_count)]
+  for i,distance in enumerate(pier_distances):
+   p=a+direction*distance
+   pier=beam(name+' concrete pier %02d'%i,p-direction*.16+Vector((0,0,.575)),p+direction*.16+Vector((0,0,.575)),.24,1.15,wallmat,RAIL,True)
+   contact(terrain,pier,p,'left concrete pier to plaza')
+  count=math.ceil(length/.85)
+  for i in range(count+1):
+   distance=length*i/count
+   if any(abs(distance-d)<.24 for d in pier_distances):continue
+   p=a+direction*distance;h=1.12-wallheight
+   bracket=beam(name+' short blue bracket %02d'%i,p-direction*.055+Vector((0,0,wallheight+h/2)),p+direction*.055+Vector((0,0,wallheight+h/2)),.08,h,blue,RAIL,True)
+   contact(base,bracket,p+Vector((0,0,wallheight)),'short bracket to concrete wall')
+  rod(name+' single white handrail',a+Vector((0,0,1.12)),b+Vector((0,0,1.12)),.046,white,RAIL,12,True)
+  return
  count=math.ceil(length/1.8)
  for i in range(count+1):
   p=a.lerp(b,i/count);o=rod(name+' post %02d'%i,p+Vector((0,0,wallheight)),p+Vector((0,0,1.12)),.035,blue,RAIL,8,True)
@@ -110,27 +135,44 @@ def fence(name,a,b,wallheight=.20):
  for h in [.48,.80,1.12]:rod(name+' rail %.2f'%h,a+Vector((0,0,h)),b+Vector((0,0,h)),.026,white,RAIL,8,True)
 # Counter-clockwise polygon keeps the inward normal on its left.
 for i in range(1,len(outline)):
- fence('Quay edge %02d'%i,outline[i],outline[(i+1)%len(outline)],.22 if i<5 else .38)
+ fence('Quay edge %02d'%i,outline[i],outline[(i+1)%len(outline)],.22 if i<5 else .82,solid_wall=i>=5)
 # Close the inland-facing edges except an 11m extension opening.
 fence('South west guard',outline[0],(-3,-12),.2);fence('South east guard',(8,-12),outline[1],.2)
 
-# Left viewpoint: fixed width, equal rise/run, attached landing and continuous guards.
+# Left-wall-clipped fan: a closed quarter-turn stair solid, including its landing.
 FRAME=root('Viewpoint stair assembly',(-16.2,55,0),STAIRS)
-st=stairmesh('Viewpoint — ten equal steps',-3.6,3.6,0,10,.18,.32,0,STAIRS)
-landing=box('Viewpoint upper landing',(-3.6,3.2,-.03),(3.6,6.3,1.8),concrete,STAIRS,True);contact(st,landing,(0,3.2,1.8),'top tread to landing')
-for side in [-1,1]:
- x=side*3.48
- for i in range(0,10,3):
-  y=i*.32+.15;z=(i+1)*.18;rod('Viewpoint stair guard post %s %s'%(side,i),(x,y,z),(x,y,1.23+(y-.15)*1.62/3.05),.035,steel,STAIRS,8,True)
- rod('Viewpoint continuous handrail %s'%side,(x,.15,1.23),(x,3.2,2.85),.035,steel,STAIRS,12,True)
- for j in range(3):rod('Viewpoint landing guard %s %s'%(side,j),(x,3.2+j*1.5,1.8),(x,3.2+j*1.5,2.85),.035,steel,STAIRS,8,True)
- rod('Viewpoint landing top rail %s'%side,(x,3.2,2.85),(x,6.3,2.85),.035,steel,STAIRS,12,True)
-box('Viewpoint rear parapet',(-3.6,6.1,1.8),(3.6,6.3,2.9),concrete,STAIRS,True)
-box('Viewpoint left masonry parapet',(-3.6,3.2,1.8),(-3.38,6.3,3.4),concrete,STAIRS,True)
+fan_center=(-3.6,6.3);fan_radius=6.3;fan_segments=64
+profile=[(fan_radius,0.)]
+for i in range(10):
+ r=fan_radius-i*.32
+ if i:profile.append((r,i*.18))
+ profile.append((r,(i+1)*.18))
+verts=[]
+for r,z in profile:
+ for j in range(fan_segments+1):
+  angle=-math.pi/2+j*math.pi/(2*fan_segments)
+  verts.append((fan_center[0]+r*math.cos(angle),fan_center[1]+r*math.sin(angle),z))
+stride=fan_segments+1;faces=[]
+for i in range(len(profile)-1):
+ for j in range(fan_segments):
+  k=i*stride+j;faces.append((k,k+1,k+1+stride,k+stride))
+bottom=len(verts);verts.append((*fan_center,0));top=len(verts);verts.append((*fan_center,1.8))
+for j in range(fan_segments):
+ faces.append((bottom,j+1,j));k=(len(profile)-1)*stride+j;faces.append((top,k,k+1))
+faces.append(tuple([bottom]+[i*stride for i in range(len(profile))]+[top]))
+faces.append(tuple([bottom,top]+[i*stride+fan_segments for i in reversed(range(len(profile)))]))
+st=mesh('Viewpoint — ten equal curved steps',verts,faces,concrete,STAIRS,collision=True)
+st['step_count']=10;st['riser_m']=.18;st['tread_m']=.32
+stairs.append({'name':st.name,'count':10,'rise':.18,'tread':.32,'base':0,'frame':FRAME.name,'shape':'radial','center':fan_center,'outer_radius':fan_radius,'angle_range':[-90,0]})
+# Retain the concrete wall at the straight cut; no metal stair or landing guards.
+wallpoly=[(0,.0),(6.3,0),(6.3,2.9),(3.2,2.9),(0,1.1)]
+v=[(x,y,z) for x in [-3.82,-3.6] for y,z in wallpoly];k=len(wallpoly)
+wall=mesh('Viewpoint left masonry parapet',v,[tuple(range(k)),tuple(reversed(range(k,2*k)))]+[(i,(i+1)%k,(i+1)%k+k,i+k) for i in range(k)],concrete,STAIRS,collision=True)
+contact(st,wall,(-3.6,4,1.8),'curved stair to left parapet')
 FRAME=None
 
 # Complete bench with connected supports, not a photograph-sized plinth.
-def bench_asset(prefix,col,offset=(0,0,0)):
+def bench_asset(prefix,col,offset=(0,0,0),backrest=True):
  x,y,z=offset;legs=[]
  for u in [-.84,.84]:
   for v in [-.21,.21]:
@@ -146,10 +188,11 @@ def bench_asset(prefix,col,offset=(0,0,0)):
  for j,bearer in enumerate(bearers):
   for seat in seats:
    q=seat.data.vertices[4].co.copy();q.x=x+(-.84 if j==0 else .84);q.y+=.0675;q.z=z+.42;contact(bearer,seat,q,'seat slat to bearer')
- for u in [-.84,.84]:
-  post=box(prefix+' back upright %.2f'%u,(x+u-.045,y+.22,z+.05),(x+u+.045,y+.30,z+1.02),steel,col,True)
-  contact(legs[1 if u<0 else 3],post,(x+u,y+.245,z+.2),'back upright to rear leg')
- for i in range(3):box(prefix+' back slat %d'%i,(x-1.12,y+.215,z+.64+i*.125),(x+1.12,y+.265,z+.74+i*.125),wood,col,True)
+ if backrest:
+  for u in [-.84,.84]:
+   post=box(prefix+' back upright %.2f'%u,(x+u-.045,y+.22,z+.05),(x+u+.045,y+.30,z+1.02),steel,col,True)
+   contact(legs[1 if u<0 else 3],post,(x+u,y+.245,z+.2),'back upright to rear leg')
+  for i in range(3):box(prefix+' back slat %d'%i,(x-1.12,y+.215,z+.64+i*.125),(x+1.12,y+.265,z+.74+i*.125),wood,col,True)
  return legs
 
 def roof_height(y,width):return 2.68+.52*math.sin(math.pi*(y/width+.5))
@@ -187,21 +230,28 @@ def shelter_asset(name,pos,length=5.4,width=3.2,yaw=0):
  for x in [-px,px]:
   for y in [-py,py]:
    sign=-1 if x>0 else 1;beam(name+' knee brace %.2f %.2f'%(x,y),(x,y,z_beam-.45),(x+sign*.55,y,z_beam+.02),.065,.065,steel,SHELTER)
- bench_asset(name+' bench',SHELTER,(0,0,0))
+ # Bench long axis follows the nearest sea-facing quay segment.
+ original_frame=FRAME
+ shore_a,shore_b=outline[3],outline[4]
+ bench_yaw=math.degrees(math.atan2(shore_b[1]-shore_a[1],shore_b[0]-shore_a[0]))
+ FRAME=root(name+' bench assembly',pos,SHELTER,bench_yaw)
+ FRAME['backrest']=False;FRAME['shore_segment']=json.dumps([shore_a,shore_b])
+ bench_asset(name+' bench',SHELTER,(0,0,0),backrest=False)
+ FRAME=original_frame
  shelters.append({'root':name,'roof':roof.name,'columns':column_names,'beam_top':z_top,'beam_bottom':z_beam,'post_xy':[px,py],'length':length,'width':width})
  FRAME=None
-shelter_asset('Main shelter',(3.25,43,0),4.8,3.2)
-shelter_asset('Rear shelter',(1.0,49.7,0),4.6,3.2)
-shelter_asset('Far shelter',(-15.8,76.5,0),4.4,3.2)
+shelter_asset('Main shelter',(3.25,43,0),3.8,3.2,25)
+shelter_asset('Rear shelter',(1.0,49.7,0),3.6,3.2,25)
+shelter_asset('Far shelter',(-15.8,76.5,0),3.5,3.2,25)
 
 # Right pavilion: fixed landing, uniform stairs, four walls, door and bearing roof.
-FRAME=root('Pavilion assembly',(11.0,18.23,0),BUILDING,-14)
+FRAME=root('Pavilion assembly',TOILET_POS,BUILDING,TOILET_YAW);FRAME['building_use']='public toilet'
 # Five equal-height terraces wrap the front and left of the raised pavilion.
 # Union the nested blocks so the landing and steps form one closed solid.
 st=None
 for i in range(5):
  outset=(5-i)*.35
- part=box('Pavilion terrace temporary %d'%i,(-3.85-outset,-outset,0),(3,6.1,(i+1)*.15),concrete,BUILDING)
+ part=box('Pavilion terrace temporary %d'%i,(-3.85-outset,-outset,0),(TOILET_REAR_X,6.1,(i+1)*.15),concrete,BUILDING)
  if st is None:st=part;st.name='Pavilion — five equal steps'
  else:
   mod=st.modifiers.new('Merge terrace','BOOLEAN');mod.operation='UNION';mod.solver='EXACT';mod.object=part;bpy.context.view_layer.update()
@@ -210,40 +260,24 @@ for i in range(5):
 st['collision']=True;collision_sources.append(st);st['step_count']=5;st['riser_m']=.15;st['tread_m']=.35
 stairs.append({'name':st.name,'x_center':-1.3,'y_start':-1.75,'count':5,'rise':.15,'tread':.35,'base':0,'frame':FRAME.name})
 platform=st
-# Clear front doorway is 1.2m wide, 2.25m high, with a lintel supported on both jambs.
+# Public toilet entrance moved clockwise onto the plaza-facing west wall.
 wallbase=.75;roofz=3.64;walls=[]
-walls.append(box('Pavilion west wall',(-1.75,1.0,wallbase),(-1.53,4.2,roofz),tilemat,BUILDING,True))
-walls.append(box('Pavilion east wall',(1.88,1.0,wallbase),(2.1,4.2,roofz),tilemat,BUILDING,True))
-walls.append(box('Pavilion rear wall',(-1.53,3.98,wallbase),(1.88,4.2,roofz),tilemat,BUILDING,True))
-walls.append(box('Pavilion front left jamb',(-1.53,1.0,wallbase),(-.6,1.22,roofz),tilemat,BUILDING,True))
-walls.append(box('Pavilion front right jamb',(.6,1.0,wallbase),(1.88,1.22,roofz),tilemat,BUILDING,True))
-lintel=box('Pavilion supported door lintel',(-.6,1.0,3.0),(.6,1.22,roofz),tilemat,BUILDING,True)
+walls.append(box('Pavilion west front jamb',(-1.75,1.,wallbase),(-1.53,2.,roofz),tilemat,BUILDING,True))
+walls.append(box('Pavilion west rear jamb',(-1.75,3.2,wallbase),(-1.53,4.2,roofz),tilemat,BUILDING,True))
+walls.append(box('Pavilion east rear wall',(1.88,1.,wallbase),(TOILET_REAR_X,4.2,roofz),tilemat,BUILDING,True))
+walls.append(box('Pavilion north wall',(-1.53,3.98,wallbase),(1.88,4.2,roofz),tilemat,BUILDING,True))
+walls.append(box('Pavilion closed former entrance',(-1.53,1.,wallbase),(1.88,1.22,roofz),tilemat,BUILDING,True))
+lintel=box('Pavilion supported door lintel',(-1.75,2.,3.),(-1.53,3.2,roofz),tilemat,BUILDING,True)
 roof=box('Pavilion complete supported roof',(-2.8,.3,roofz),(2.8,4.36,roofz+.44),concrete,BUILDING,True)
 for wall in walls:
- lo=Vector(wall.bound_box[0]);hi=Vector(wall.bound_box[6]);p=(lo+hi)/2;p.z=wallbase;contact(platform,wall,p,'pavilion wall to platform');p.z=roofz;contact(wall,roof,p,'pavilion wall bearing roof')
-contact(walls[3],lintel,(-.6,1.1,3.4),'door lintel left bearing');contact(walls[4],lintel,(.6,1.1,3.4),'door lintel right bearing')
+ lo=Vector(wall.bound_box[0]);hi=Vector(wall.bound_box[6]);p=(lo+hi)/2;p.z=wallbase;contact(platform,wall,p,'toilet wall to platform');p.z=roofz;contact(wall,roof,p,'toilet wall bearing roof')
+contact(walls[0],lintel,(-1.64,2.,3.4),'door lintel front bearing');contact(walls[1],lintel,(-1.64,3.2,3.4),'door lintel rear bearing')
+s['toilet_manifest']=json.dumps({'frame':FRAME.name,'entrance_center':[-1.64,2.6,.75],'width':1.2,'height':2.25,'rear_x':TOILET_REAR_X,'quay_line':quay_rear_line})
 # Monument seated on the west part of the landing, as visible in the photograph.
 monument=box('Pavilion monument body',(-4.18,-.15,.75),(-3.28,.6,1.65),concrete,BUILDING,True);contact(platform,monument,(-3.73,.2,.75),'monument seated on platform')
 box('Pavilion monument inset plaque',(-4.12,-.167,.86),(-3.34,-.15,1.57),black,BUILDING)
-for side in [1]:
- x=-6.17 if side<0 else 2.87
- for i in range(0,5,2):
-  y=-1.75+(i+.5)*.35;z=(i+1)*.15;px=(-7.92+(y+1.575)*1.75/1.575) if side<0 else x
-  rod('Pavilion stair guard %d %d'%(side,i),(px,y,z),(px,y,1.15+(y+1.575)*.75/1.575),.032,steel,BUILDING,8,True)
- rod('Pavilion stair handrail %d'%side,(-7.92 if side<0 else x,-1.575,1.15),(x,0,1.9),.035,steel,BUILDING,12,True)
- for j in range(5):
-  y=j*1.48;rod('Pavilion landing guard %d %d'%(side,j),(x,y,.75),(x,y,1.9),.032,steel,BUILDING,8,True)
- for h in [1.15,1.52,1.9]:rod('Pavilion landing rail %d %.2f'%(side,h),(x,0,h),(x,5.92,h),.03,steel,BUILDING,8,True)
-
+# Quay guards already follow the rear wall; no separate seaward platform rail.
 FRAME=None
-
-# Planters and rooted three-dimensional grass, replacing camera-facing grass silhouettes.
-for i,(x,y) in enumerate([(-9.5,12),(-14.2,33),(-21.6,50)]):
- planter=box('Grounded planter %d'%i,(x-.65,y-1.4,0),(x+.65,y+1.4,.2),soil,NATURE,True)
- verts=[];faces=[]
- for k in range(200):
-  X=x+random.uniform(-.62,.62);Y=y+random.uniform(-1.35,1.35);h=random.uniform(.10,.4);w=random.uniform(.006,.018);j=len(verts);verts.extend([(X-w,Y,.2),(X+w,Y,.2),(X+.05,Y+.02,.2+h),(X,Y-w,.2),(X,Y+w,.2),(X+.02,Y-.03,.2+h)]);faces.extend([(j,j+1,j+2),(j+3,j+4,j+5)])
- mesh('Rooted grass blades %d'%i,verts,faces,grassmat,NATURE,'detail')
 
 # Volumetric breakwaters rise from the seabed, with beacons on their top surface.
 for name,cx,cy,L in [('Inner',-60,600,170),('Outer',180,1100,360)]:
@@ -255,7 +289,7 @@ def terrain_patch(name,cx,cy,width,depth,nx,ny,height):
  verts=[]
  for j in range(ny+1):
   for i in range(nx+1):
-   x=cx-width/2+width*i/nx;y=cy-depth/2+depth*j/ny;h=height*(.3+.7*math.sin(math.pi*i/nx)**2)*math.sin(math.pi*j/ny)**2;verts.append((x,y,-2+h))
+   x=cx-width/2+width*i/nx;y=cy-depth/2+depth*j/ny;h=height*(.3+.7*math.sin(math.pi*i/nx)**2)*math.sin(math.pi*j/ny)**2*(.72+.14*math.sin(i*.71)+.08*math.sin(i*1.83));verts.append((x,y,-2+h))
  faces=[]
  for j in range(ny):
   for i in range(nx):a=j*(nx+1)+i;faces.append((a,a+1,a+nx+2,a+nx+1))
@@ -377,6 +411,9 @@ for x in [-24,24]:
  for y in [-4.8,4.8]:rod('Ferry mooring bollard %.0f %.1f'%(x,y),(x,y,1.2),(x,y,1.65),.16,steel,FERRY,12)
 FRAME=None
 
+from geometry_details import add_details
+add_details(s,globals())
+
 # Dedicated static collision geometry: exact terrain and simplified visible solids.
 # Kept out of rendering and hidden in viewport; exporters can select this collection.
 bpy.context.view_layer.update()
@@ -388,7 +425,12 @@ COLL.hide_render=True
 spawn=root('Player spawn — feet at plaza level',(0,0,0),NAV);spawn['eye_height_m']=1.65;spawn['capsule_radius_m']=.30;spawn['capsule_height_m']=1.8;spawn['suggested_step_height_m']=.20
 extension=root('Map extension — inland connector',(2.5,-30,0),NAV);extension['clear_width_m']=11
 # Navigable routes deliberately avoid benches, posts and the monument.
-routes={'entry_to_main':[(0,-18),(0,0),(0,25),(3.1,40.8),(3.1,42.1)],'entry_to_viewpoint':[(0,0),(-10,35),(-16.2,53.5),(-16.2,54.9),(-16.2,58.4),(-16.2,60)],'entry_to_pavilion':[(0,0),(8,13),(11,15),(10.54,16.385),(10.976,18.133),(11.169,18.909),(11.532,20.365)],'main_to_rear':[(3.1,42.1),(3.1,40.8),(6.5,40.8),(6.5,44.7),(4.5,47),(1,47.5),(1,48.8)]}
+routes={'entry_to_main':[(0,-18),(0,0),(0,25),(3.25,40.0),(3.25,41.4)],'main_to_rear':[(3.25,41.4),(3.25,40.0),(6.5,40.0),(6.5,44.7),(3.2,46),(1,47.5),(1,48.1)],'entry_to_pavilion':[(0,0),(8,13)]+[toilet_world(x,y) for x,y in [(-2.6,-2.1),(-2.6,.3),(-2.6,2.6),(-2.2,2.6),(-1.,2.6),(0,2.6)]]}
+for degrees in [-75,-45,-15]:
+ angle=math.radians(degrees)
+ points=[(-19.8+r*math.cos(angle),61.3+r*math.sin(angle)) for r in [6.8,6.31,5.8,5.,4.2,3.4,2.5]]
+ routes['entry_to_viewpoint_%d'%abs(degrees)]=[(0,0),(-10,35)]+points
+
 
 # Cameras for real multi-view inspection, not screenshot-only matching.
 def camera(name,pos,target,lens=40):
@@ -398,22 +440,21 @@ camera('Walk camera',(0,0,1.65),(0,55,.22),35.7)
 camera('Overview camera',(68,-52,70),(-5,38,0),42)
 camera('Shelter inspection camera',(11,34,5.2),(2.2,44.5,1.5),44)
 camera('Reverse inspection camera',(-5,61,3.4),(5,34,1.5),30)
-camera('Pavilion inspection camera',(22,8,7),(11,20,1.8),42)
+camera('Pavilion inspection camera',(0,12,7),(11,21,1.6),42)
 ferrypos=ferryroot.location.copy();camera('Ferry inspection camera',ferrypos+Vector((54,-68,35)),ferrypos+Vector((0,0,7)),45)
 # 360 degree world, replacing a view-dependent sky rectangle.
 world=bpy.data.worlds.new('Maritime daylight world');world.use_nodes=True;n=world.node_tree.nodes;l=world.node_tree.links;n.clear();out=n.new('ShaderNodeOutputWorld');bg=n.new('ShaderNodeBackground');bg.inputs['Strength'].default_value=.65;l.new(bg.outputs[0],out.inputs[0]);tc=n.new('ShaderNodeTexCoord');sep=n.new('ShaderNodeSeparateXYZ');l.new(tc.outputs['Normal'],sep.inputs[0]);ramp=n.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].position=0;ramp.color_ramp.elements[0].color=(*lin((.74,.79,.83)),1);ramp.color_ramp.elements[1].position=.8;ramp.color_ramp.elements[1].color=(*lin((.34,.51,.71)),1);l.new(sep.outputs['Z'],ramp.inputs[0]);l.new(ramp.outputs[0],bg.inputs['Color']);s.world=world
 ld=bpy.data.lights.new('Broad daylight sun','SUN');lo=bpy.data.objects.new(ld.name,ld);CAM.objects.link(lo);lo.rotation_euler=(math.radians(28),math.radians(-23),math.radians(-35));ld.energy=2.0;ld.angle=math.radians(8)
-# Keep original photo solely as a packed image-editor/reference resource.
-ref=bpy.data.images.load(str(ROOT/'assets/reference_srgb.png'));ref.name='Source photograph — calibrated projection';ref.pack();ref.filepath='//assets/reference_srgb.png'
-s.render.engine='CYCLES';s.cycles.device='CPU';s.cycles.samples=128;s.cycles.use_adaptive_sampling=True;s.cycles.adaptive_threshold=.01;s.cycles.adaptive_min_samples=16;s.cycles.use_denoising=True;s.cycles.denoiser='OPENIMAGEDENOISE';s.cycles.max_bounces=4;s.cycles.transmission_bounces=3;s.render.threads_mode='FIXED';s.render.threads=16;s.render.resolution_x=3024;s.render.resolution_y=3024;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGB';s.render.filepath='//renders/hamamachi_breakwater.png';s.view_settings.view_transform='Standard';s.view_settings.look='None';s.render.film_transparent=False
-s['project']='Hamamachi breakwater — structural revision 2';s['model_revision']=2;s['metric_basis']='Meters; plausible inferred dimensions except ferry envelope referenced from Kagoshima City. Not a site survey or structural engineering certification.';s['purpose']='Coherent multi-view editable geometry for future walkable-map expansion';s['water_level_m']=SEA_LEVEL;s['photo_projection_enabled']=True
-from restore_appearance import restore_appearance
-restore_appearance(s,cam,ref,collections)
+# Source photograph remains an external comparison reference only.
+s.render.engine='CYCLES';s.cycles.device='CPU';s.cycles.samples=256;s.cycles.use_adaptive_sampling=True;s.cycles.adaptive_threshold=.01;s.cycles.adaptive_min_samples=16;s.cycles.use_denoising=True;s.cycles.denoiser='OPENIMAGEDENOISE';s.cycles.max_bounces=4;s.cycles.transmission_bounces=3;s.render.threads_mode='FIXED';s.render.threads=16;s.render.resolution_x=3024;s.render.resolution_y=3024;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGB';s.render.filepath='//renders/hamamachi_breakwater.png';s.view_settings.view_transform='AgX';s.view_settings.look='None';s.render.film_transparent=False
+s['project']='Hamamachi breakwater — procedural revision 4';s['model_revision']=4;s['metric_basis']='Meters; plausible inferred dimensions except ferry envelope referenced from Kagoshima City. Not a site survey or structural engineering certification.';s['purpose']='Coherent multi-view editable geometry for future walkable-map expansion';s['water_level_m']=SEA_LEVEL;s['photo_projection_enabled']=False
+from procedural_surfaces import apply_surfaces
+apply_surfaces(s)
 s['contact_manifest']=json.dumps(contacts);s['stair_manifest']=json.dumps(stairs);s['shelter_manifest']=json.dumps(shelters);s['walk_routes']=json.dumps(routes)
 for screen in bpy.data.screens:
  for area in screen.areas:
   if area.type=='VIEW_3D':area.spaces.active.region_3d.view_perspective='CAMERA';area.spaces.active.overlay.show_extras=False;area.spaces.active.clip_end=20000
 bpy.context.preferences.filepaths.save_version=0
 bpy.context.view_layer.update();bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'hamamachi_breakwater.blend'))
-report={'build_seconds':time.monotonic()-T,'revision':2,'objects':len(s.objects),'meshes':sum(o.type=='MESH' for o in s.objects),'vertices':sum(len(o.data.vertices) for o in s.objects if o.type=='MESH'),'contacts':len(contacts),'static_colliders':len(COLL.objects),'ferry_parts':len(FERRY.objects),'units':'meters'}
+report={'scene_sha256':sha256(ROOT/'hamamachi_breakwater.blend'),'build_seconds':time.monotonic()-T,'revision':4,'objects':len(s.objects),'meshes':sum(o.type=='MESH' for o in s.objects),'vertices':sum(len(o.data.vertices) for o in s.objects if o.type=='MESH'),'contacts':len(contacts),'static_colliders':len(COLL.objects),'ferry_parts':len(FERRY.objects),'units':'meters'}
 write_report('build',report);print('BUILD_REPORT',json.dumps(report),flush=True)

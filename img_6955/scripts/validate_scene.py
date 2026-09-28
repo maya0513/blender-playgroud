@@ -8,7 +8,7 @@ sys.dont_write_bytecode=True
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from project import ROOT, REPORTS as out, ensure_directories, write_report, sha256
 ensure_directories();s=bpy.context.scene
-assert s.get('model_revision')==2
+assert s.get('model_revision')==4
 assert s.unit_settings.system=='METRIC' and s.unit_settings.scale_length==1
 bpy.context.view_layer.update();solids=[o for o in s.objects if o.type=='MESH' and o.get('geometry_kind')=='solid']
 errors=[];topology=[];cache={}
@@ -34,9 +34,9 @@ for sh in json.loads(s['shelter_manifest']):
  for name in sh['columns']:
   o=bpy.data.objects[name];zmin=min(v.co.z for v in o.data.vertices);zmax=max(v.co.z for v in o.data.vertices)
   if abs(zmin-.12)>1e-5 or abs(zmax-sh['beam_bottom'])>1e-5:errors.append({'kind':'column_height','object':name})
-# Restored appearance requires a fixed projector and a distinct photo camera.
-if not s.get('photo_projection_enabled') or 'Fixed photograph projector' not in bpy.data.objects:errors.append({'kind':'missing_photo_projection'})
-if 'Calibrated photo projection' not in bpy.data.node_groups:errors.append({'kind':'missing_projection_controls'})
+from scene_audit import audit_scene
+visual_audit = audit_scene(s)
+errors.extend(visual_audit['errors'])
 # Collision copies must preserve visible-source transforms and closed shape.
 coll=bpy.data.collections['10 Collision proxies']
 for o in coll.objects:
@@ -89,10 +89,38 @@ for d in json.loads(s['stair_manifest']):
   # Upward ray must not hit the target deck halfway along the staircase.
   target=bpy.data.objects['Ferry Passenger upper deck' if '5.4' in d['name'] else 'Ferry Sky deck']
   if bvh(target).ray_cast(p,Vector((0,0,1)),2.0)[0] is not None:errors.append({'kind':'closed_ferry_stairwell','stair':d['name']})
+# Revision 4 acceptance: actual mesh opening, common quay line, backless benches,
+# and grass roots confined to physical joints.
+toilet=json.loads(s['toilet_manifest']);frame=bpy.data.objects[toilet['frame']]
+a,b=[Vector((*p,0)) for p in toilet['quay_line']];direction=(b-a).normalized()
+rear=bpy.data.objects['Pavilion east rear wall']
+for vertex in rear.data.vertices:
+ if abs(vertex.co.x-toilet['rear_x'])<1e-5:
+  p=rear.matrix_world@vertex.co;p.z=0
+  if (p-a).cross(direction).length>1e-5:errors.append({'kind':'toilet_quay_alignment'})
+# Sample the opening through its full width and height, not only its center.
+for y in [2.01,2.6,3.19]:
+ for z in [.77,1.8,2.99]:
+  origin=frame.matrix_world@Vector((-2.,y,z));direction=frame.matrix_world.to_3x3()@Vector((1,0,0))
+  for wall in bpy.data.collections['04 Pavilion'].objects:
+   if wall.type=='MESH' and wall.name!='Pavilion complete supported roof' and bvh(wall).ray_cast(origin,direction,.6)[0] is not None:
+    errors.append({'kind':'toilet_entrance_obstructed','object':wall.name,'y':y,'z':z})
+for o in s.objects:
+ if o.name.endswith('bench assembly'):
+  if any('back ' in child.name for child in o.children):errors.append({'kind':'plaza_bench_backrest','object':o.name})
+  a,b=[Vector((*p,0)) for p in json.loads(o['shore_segment'])]
+  axis=o.matrix_world.to_3x3()@Vector((1,0,0))
+  if abs(axis.normalized().dot((b-a).normalized()))<.99999:errors.append({'kind':'bench_shore_direction','object':o.name})
+grass=json.loads(s['grass_manifest'])
+for x,y,z in grass['roots']:
+ p=Vector((x,y))
+ distance=min((p-(Vector(a)+(Vector(b)-Vector(a))*max(0,min(1,(p-Vector(a)).dot(Vector(b)-Vector(a))/(Vector(b)-Vector(a)).length_squared)))).length for a,b in grass['joints'])
+ if distance>grass['root_tolerance_m'] or not -.006<=z<=0:errors.append({'kind':'grass_root_outside_joint','point':[x,y,z]});break
+if any(o.name.startswith('Grounded planter') for o in s.objects):errors.append({'kind':'remaining_soil_planter'})
 # Packed reference and render/camera settings remain independently inspectable.
 for img in bpy.data.images:
  if img.source=='FILE' and not img.packed_file:errors.append({'kind':'unpacked_image','image':img.name})
 if s.camera is None or (s.render.resolution_x,s.render.resolution_y) not in [(1280,850),(3024,3024)]:errors.append({'kind':'review_output_settings'})
-report={'status':'PASS' if not errors else 'FAIL','revision':2,'scene_sha256':sha256(bpy.data.filepath),'solid_mesh_count':len(solids),'contact_count':len(contact_report),'contact_passed':sum(c['pass'] for c in contact_report),'collision_count':len(coll.objects),'walk_routes':route_reports,'ferry':{'keel_z':zmin,'waterline_z':water,'hull_top_z':zmax,'draft_m':water-zmin,'parts':len(bpy.data.collections['06 Sakurajima type ferry'].objects)},'stairs':stair_report,'errors':errors,'limits':'Geometric support and sampled clearance checks. Not FEM, buoyancy simulation, regulatory verification or an engine character-controller test.'}
+report={'status':'PASS' if not errors else 'FAIL','revision':4,'scene_sha256':sha256(bpy.data.filepath),'visual_audit':visual_audit,'solid_mesh_count':len(solids),'contact_count':len(contact_report),'contact_passed':sum(c['pass'] for c in contact_report),'collision_count':len(coll.objects),'walk_routes':route_reports,'ferry':{'keel_z':zmin,'waterline_z':water,'hull_top_z':zmax,'draft_m':water-zmin,'parts':len(bpy.data.collections['06 Sakurajima type ferry'].objects)},'stairs':stair_report,'errors':errors,'limits':'Geometric support and sampled clearance checks. Not FEM, buoyancy simulation, regulatory verification or an engine character-controller test.'}
 write_report('validation',report);write_report('contacts',contact_report);print(json.dumps({k:v for k,v in report.items() if k not in ['walk_routes','stairs']},indent=2),flush=True)
 assert not errors,'Structural validation failed; see review/reports/validation.json'

@@ -1,126 +1,12 @@
 {
   "mode": "preview",
   "views": {
-    "overview": {
-      "image": "review/images/overview.png",
-      "camera": "Overview camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "2cc48aaf17f3dbd0dfdad5f8997006af3908bfa6125218a272670fdb9f3df462",
-      "render_seconds": 16.009159228007775,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
-    "shelter": {
-      "image": "review/images/shelter.png",
-      "camera": "Shelter inspection camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "25a03cde752e527ced54c60124e56e7b466b9074dae1fcfe501f1ef8153b894d",
-      "render_seconds": 19.585138751004706,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
-    "ferry": {
-      "image": "review/images/ferry.png",
-      "camera": "Ferry inspection camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "c4a8526c72114524a06ddd5cd41ee83f278e7b452c0d4f31e0c3771766af7df9",
-      "render_seconds": 20.59085186700395,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
-    "reverse": {
-      "image": "review/images/reverse.png",
-      "camera": "Reverse inspection camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "8ca549c570b07b483b75509b889abadbbd9f1ee129771fe72306326ef96a2244",
-      "render_seconds": 14.539045466008247,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
-    "pavilion": {
-      "image": "review/images/pavilion.png",
-      "camera": "Pavilion inspection camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "35b21ca2086f5f0012202607fd3149dc2eec5aca19d51ec41d1db33c37bb05f4",
-      "render_seconds": 18.788928496011067,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
-    "walk": {
-      "image": "review/images/walk.png",
-      "camera": "Walk camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "0c9f3dd2590fddaa9f307a99a76142b867fc18d5a671705cc69feb0ef5d53726",
-      "render_seconds": 12.88257451899699,
-      "size": [
-        1280,
-        850
-      ],
-      "engine": "CYCLES",
-      "device": "CPU",
-      "threads": 16,
-      "samples": 32,
-      "adaptive_threshold": 0.03500000014901161,
-      "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "AgX",
-      "display_device": "sRGB"
-    },
     "photo": {
       "image": "review/images/photo.png",
       "camera": "Photo camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "c1073d5b0ac00ff3b28d62a45de5ac83230e528eb3fff9c55afa59b78fe378b8",
-      "render_seconds": 16.590276552000432,
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "e71caa2085345c79d41da0a08559abc9835b30afd081f37e08428d21cb7ac7dc",
+      "render_seconds": 30.275876803993015,
       "size": [
         1512,
         1512
@@ -131,15 +17,23 @@
       "samples": 64,
       "adaptive_threshold": 0.03500000014901161,
       "denoiser": "OPENIMAGEDENOISE",
-      "view_transform": "Standard",
-      "display_device": "sRGB"
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
     },
     "clay": {
       "image": "review/images/clay.png",
       "camera": "Photo camera",
-      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
-      "image_sha256": "75496a9e775fd84634f2779f17603b175f0ee5de8f82e1ee5093c18cc18afe25",
-      "render_seconds": 6.390118447990972,
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "b6bc34d5cffa8d0d1cd1ea495cda0d4fbe7fc7151350f0ecfb4f706df4d565c2",
+      "render_seconds": 7.997221191006247,
       "size": [
         756,
         756
@@ -151,7 +45,177 @@
       "adaptive_threshold": 0.03500000014901161,
       "denoiser": "OPENIMAGEDENOISE",
       "view_transform": "AgX",
-      "display_device": "sRGB"
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "overview": {
+      "image": "review/images/overview.png",
+      "camera": "Overview camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "53c77dd065ac4ed651aadbe27e8fdbcf63b788b0f9e713ad0bece2ee96cc741a",
+      "render_seconds": 21.192215224000392,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "shelter": {
+      "image": "review/images/shelter.png",
+      "camera": "Shelter inspection camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "21ab2f55d84dce298fbb3d9517b5afc28b4cf376bff5d7e440e5b019715226b0",
+      "render_seconds": 25.857383744005347,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "ferry": {
+      "image": "review/images/ferry.png",
+      "camera": "Ferry inspection camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "f45c6cc14571165e69516ca82ada3c2c6ca4f0dcb039d66590bfe697fbc1c782",
+      "render_seconds": 27.567623668990564,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "reverse": {
+      "image": "review/images/reverse.png",
+      "camera": "Reverse inspection camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "d9a08fe72727958d9e87b503f815a293f8c052913ccdf725aed6850ee784a6c9",
+      "render_seconds": 18.948785654996755,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "pavilion": {
+      "image": "review/images/pavilion.png",
+      "camera": "Pavilion inspection camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "205f584d4144fac611ff645fa70e529fa607ee30f00f7ec8c3c54b664be263dc",
+      "render_seconds": 24.816989899991313,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
+    },
+    "walk": {
+      "image": "review/images/walk.png",
+      "camera": "Walk camera",
+      "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+      "image_sha256": "c8395f98d2489aa2f5aaa252ee56e5a6c59a3785ab41024f54386395bde0f947",
+      "render_seconds": 16.238380173017504,
+      "size": [
+        1280,
+        850
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 32,
+      "adaptive_threshold": 0.03500000014901161,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "AgX",
+      "display_device": "sRGB",
+      "photo_projection": false,
+      "scene_audit": {
+        "status": "PASS",
+        "node_trees_checked": 18,
+        "nodes_checked": 135,
+        "errors": [],
+        "policy": "No image textures, photographic background, image composite, projection or camera-dependent shader branches."
+      }
     }
   }
 }

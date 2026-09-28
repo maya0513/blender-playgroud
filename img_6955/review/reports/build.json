@@ -1,11 +1,12 @@
 {
-  "build_seconds": 1.1245578679954633,
-  "revision": 2,
-  "objects": 1586,
-  "meshes": 1565,
-  "vertices": 27369,
-  "contacts": 1002,
-  "static_colliders": 313,
+  "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
+  "build_seconds": 1.3341472749889363,
+  "revision": 4,
+  "objects": 1838,
+  "meshes": 1814,
+  "vertices": 44022,
+  "contacts": 1070,
+  "static_colliders": 331,
   "ferry_parts": 843,
   "units": "meters"
 }

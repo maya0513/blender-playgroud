@@ -1,0 +1,5 @@
+Command: ['/usr/bin/python3', '/home/maya0513/workspace/blender-playgroud/img_6955/scripts/verify_outputs.py']
+PASS: current scene, nine managed PNG files, dimensions, image hashes and fixed output paths
+Preserved additional files (not verified as current outputs): ['renders/ferry.png']
+
+Elapsed: 0.433s; exit code: 0

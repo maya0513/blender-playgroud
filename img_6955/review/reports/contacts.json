@@ -18,13 +18,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 00",
     "point": [
-      18.8799991607666,
-      -12.0,
+      5.51066780090332,
+      -11.970969200134277,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -33,13 +33,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 01",
     "point": [
-      18.8799991607666,
-      -10.2380952835083,
+      5.930073261260986,
+      -10.288825035095215,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -48,13 +48,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 02",
     "point": [
-      18.8799991607666,
-      -8.476190567016602,
+      6.349478721618652,
+      -8.606683731079102,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -63,13 +63,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 03",
     "point": [
-      18.880001068115234,
-      -6.714285850524902,
+      6.768884181976318,
+      -6.924538612365723,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_a_m": 4.7706993200336e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -78,13 +78,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 04",
     "point": [
-      18.8799991607666,
-      -4.952381134033203,
+      7.188288688659668,
+      -5.242397785186768,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -93,13 +93,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 05",
     "point": [
-      18.8799991607666,
-      -3.190476894378662,
+      7.607694625854492,
+      -3.560253620147705,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_a_m": 4.7706993200336e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -108,13 +108,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 06",
     "point": [
-      18.8799991607666,
-      -1.4285717010498047,
+      8.027100563049316,
+      -1.8781094551086426,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 4.7706993200336e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -123,13 +123,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 07",
     "point": [
-      18.8799991607666,
-      0.33333444595336914,
+      8.446504592895508,
+      -0.1959676742553711,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -138,13 +138,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 08",
     "point": [
-      18.8799991607666,
-      2.0952377319335938,
+      8.865910530090332,
+      1.4861764907836914,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -153,13 +153,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 09",
     "point": [
-      18.8799991607666,
-      3.857144355773926,
+      9.285316467285156,
+      3.1683201789855957,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 4.7706993200336e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -168,13 +168,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 10",
     "point": [
-      18.8799991607666,
-      5.619046688079834,
+      9.704721450805664,
+      4.850461959838867,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -183,13 +183,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 11",
     "point": [
-      18.8799991607666,
-      7.380953311920166,
+      10.124127388000488,
+      6.53260612487793,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -198,13 +198,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 12",
     "point": [
-      18.8799991607666,
-      9.142858505249023,
+      10.543533325195312,
+      8.214750289916992,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.9074068404734135e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -213,13 +213,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 13",
     "point": [
-      18.8799991607666,
-      10.904762268066406,
+      10.962937355041504,
+      9.896890640258789,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
+    "distance_to_a_m": 2.1325326997612137e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -228,13 +228,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 14",
     "point": [
-      18.8799991607666,
-      12.666667938232422,
+      11.382343292236328,
+      11.579035758972168,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -243,13 +243,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 15",
     "point": [
-      18.8799991607666,
-      14.428571701049805,
+      11.801748275756836,
+      13.261180877685547,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.9074068404734135e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -258,13 +258,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 16",
     "point": [
-      18.8799991607666,
-      16.190475463867188,
+      12.221153259277344,
+      14.943321228027344,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.3487814385371166e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -273,13 +273,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 17",
     "point": [
-      18.8799991607666,
-      17.952381134033203,
+      12.640559196472168,
+      16.625465393066406,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -288,13 +288,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 18",
     "point": [
-      18.880001068115234,
-      19.71428680419922,
+      13.059965133666992,
+      18.30760955810547,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -303,13 +303,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 19",
     "point": [
-      18.8799991607666,
-      21.4761905670166,
+      13.4793701171875,
+      19.989749908447266,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -318,13 +318,13 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 20",
     "point": [
-      18.8799991607666,
-      23.238096237182617,
+      13.898776054382324,
+      21.67189598083496,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 9.53790731728077e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -333,13 +333,73 @@
     "a": "Quay edge 01 curb",
     "b": "Quay edge 01 post 21",
     "point": [
-      18.8799991607666,
-      25.0,
+      14.318181037902832,
+      23.354036331176758,
       0.2199999988079071
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.9074068404734135e-06,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 01 curb",
+    "b": "Quay edge 01 post 22",
+    "point": [
+      14.737586975097656,
+      25.036182403564453,
+      0.2199999988079071
+    ],
+    "frame": null,
+    "label": "guard post to curb",
+    "distance_to_a_m": 9.53790731728077e-07,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 01 curb",
+    "b": "Quay edge 01 post 23",
+    "point": [
+      15.156991958618164,
+      26.718324661254883,
+      0.2199999988079071
+    ],
+    "frame": null,
+    "label": "guard post to curb",
+    "distance_to_a_m": 9.53790731728077e-07,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 01 curb",
+    "b": "Quay edge 01 post 24",
+    "point": [
+      15.576396942138672,
+      28.400466918945312,
+      0.2199999988079071
+    ],
+    "frame": null,
+    "label": "guard post to curb",
+    "distance_to_a_m": 1.4901161193847656e-08,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 01 curb",
+    "b": "Quay edge 01 post 25",
+    "point": [
+      15.995802879333496,
+      30.082611083984375,
+      0.2199999988079071
+    ],
+    "frame": null,
+    "label": "guard post to curb",
+    "distance_to_a_m": 1.4901161193847656e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -348,8 +408,8 @@
     "a": "Quay edge 02 curb",
     "b": "Quay edge 02 post 00",
     "point": [
-      18.895811080932617,
-      24.94046401977539,
+      16.00804901123047,
+      29.99404525756836,
       0.2199999988079071
     ],
     "frame": null,
@@ -363,8 +423,8 @@
     "a": "Quay edge 02 curb",
     "b": "Quay edge 02 post 01",
     "point": [
-      18.095809936523438,
-      26.340463638305664,
+      15.451930046081543,
+      30.967254638671875,
       0.2199999988079071
     ],
     "frame": null,
@@ -377,51 +437,6 @@
   {
     "a": "Quay edge 02 curb",
     "b": "Quay edge 02 post 02",
-    "point": [
-      17.29581069946289,
-      27.740463256835938,
-      0.2199999988079071
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 02 curb",
-    "b": "Quay edge 02 post 03",
-    "point": [
-      16.495811462402344,
-      29.140464782714844,
-      0.2199999988079071
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 02 curb",
-    "b": "Quay edge 02 post 04",
-    "point": [
-      15.695810317993164,
-      30.540464401245117,
-      0.2199999988079071
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 02 curb",
-    "b": "Quay edge 02 post 05",
     "point": [
       14.895811080932617,
       31.94046401977539,
@@ -918,8 +933,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 00",
     "point": [
-      -14.078094482421875,
-      78.90888977050781,
+      -14.094721794128418,
+      78.92633056640625,
       0.2199999988079071
     ],
     "frame": null,
@@ -933,8 +948,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 01",
     "point": [
-      -15.390594482421875,
-      80.03388977050781,
+      -15.17164421081543,
+      80.31094360351562,
       0.2199999988079071
     ],
     "frame": null,
@@ -948,8 +963,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 02",
     "point": [
-      -16.703094482421875,
-      81.15888977050781,
+      -16.248567581176758,
+      81.69556427001953,
       0.2199999988079071
     ],
     "frame": null,
@@ -963,8 +978,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 03",
     "point": [
-      -18.015594482421875,
-      82.28388977050781,
+      -17.325490951538086,
+      83.0801773071289,
       0.2199999988079071
     ],
     "frame": null,
@@ -978,8 +993,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 04",
     "point": [
-      -19.328094482421875,
-      83.40888977050781,
+      -18.402414321899414,
+      84.46479034423828,
       0.2199999988079071
     ],
     "frame": null,
@@ -993,8 +1008,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 05",
     "point": [
-      -20.640594482421875,
-      84.53388977050781,
+      -19.479339599609375,
+      85.84941101074219,
       0.2199999988079071
     ],
     "frame": null,
@@ -1008,8 +1023,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 06",
     "point": [
-      -21.953094482421875,
-      85.65888977050781,
+      -20.556259155273438,
+      87.23402404785156,
       0.2199999988079071
     ],
     "frame": null,
@@ -1023,8 +1038,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 07",
     "point": [
-      -23.265594482421875,
-      86.78388977050781,
+      -21.6331844329834,
+      88.61863708496094,
       0.2199999988079071
     ],
     "frame": null,
@@ -1038,8 +1053,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 08",
     "point": [
-      -24.578094482421875,
-      87.90888977050781,
+      -22.710107803344727,
+      90.00325775146484,
       0.2199999988079071
     ],
     "frame": null,
@@ -1053,8 +1068,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 09",
     "point": [
-      -25.890594482421875,
-      89.03388977050781,
+      -23.787031173706055,
+      91.38786315917969,
       0.2199999988079071
     ],
     "frame": null,
@@ -1068,8 +1083,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 10",
     "point": [
-      -27.203094482421875,
-      90.15888977050781,
+      -24.863954544067383,
+      92.7724838256836,
       0.2199999988079071
     ],
     "frame": null,
@@ -1083,8 +1098,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 11",
     "point": [
-      -28.515594482421875,
-      91.28388977050781,
+      -25.940876007080078,
+      94.15709686279297,
       0.2199999988079071
     ],
     "frame": null,
@@ -1098,8 +1113,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 12",
     "point": [
-      -29.828094482421875,
-      92.40888977050781,
+      -27.017799377441406,
+      95.54171752929688,
       0.2199999988079071
     ],
     "frame": null,
@@ -1113,8 +1128,8 @@
     "a": "Quay edge 04 curb",
     "b": "Quay edge 04 post 13",
     "point": [
-      -31.140594482421875,
-      93.53388977050781,
+      -28.094722747802734,
+      96.92633056640625,
       0.2199999988079071
     ],
     "frame": null,
@@ -1125,930 +1140,1965 @@
     "pass": true
   },
   {
-    "a": "Quay edge 04 curb",
-    "b": "Quay edge 04 post 14",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 00",
     "point": [
-      -32.453094482421875,
-      94.65888977050781,
-      0.2199999988079071
+      -27.540958404541016,
+      95.11200714111328,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 3.1456798751605675e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 04 curb",
-    "b": "Quay edge 04 post 15",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 01",
     "point": [
-      -33.765594482421875,
-      95.78388977050781,
-      0.2199999988079071
+      -26.859140396118164,
+      91.2938232421875,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 3.259278673795052e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 04 curb",
-    "b": "Quay edge 04 post 16",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 02",
     "point": [
-      -35.078094482421875,
-      96.90888977050781,
-      0.2199999988079071
+      -26.177322387695312,
+      87.47563934326172,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 3.1456798751605675e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 00",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 03",
     "point": [
-      -34.88291549682617,
-      97.02628326416016,
-      0.3799999952316284
+      -25.49550437927246,
+      83.65745544433594,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 7.516502228099853e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 01",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 04",
     "point": [
-      -34.49005889892578,
-      95.27628326416016,
-      0.3799999952316284
+      -24.81368637084961,
+      79.83927917480469,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 0.00013734234380535781,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 02",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 05",
     "point": [
-      -34.097198486328125,
-      93.52628326416016,
-      0.3799999952316284
+      -24.131868362426758,
+      76.0210952758789,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 03",
-    "point": [
-      -33.704345703125,
-      91.77628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 04",
-    "point": [
-      -33.31148910522461,
-      90.02629089355469,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 05",
-    "point": [
-      -32.91862869262695,
-      88.27628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 06",
-    "point": [
-      -32.52577209472656,
-      86.52627563476562,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 07",
-    "point": [
-      -32.13291549682617,
-      84.77628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 7.62939453125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 08",
-    "point": [
-      -31.74005699157715,
-      83.02628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 09",
-    "point": [
-      -31.34720230102539,
-      81.27628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 10",
-    "point": [
-      -30.954341888427734,
-      79.52628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 7.864199687901419e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 11",
-    "point": [
-      -30.561485290527344,
-      77.77628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 12",
-    "point": [
-      -30.168628692626953,
-      76.02628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 13",
-    "point": [
-      -29.775772094726562,
-      74.27628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 14",
-    "point": [
-      -29.382915496826172,
-      72.52628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 15",
-    "point": [
-      -28.99005889892578,
-      70.77628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 16",
-    "point": [
-      -28.597198486328125,
-      69.02628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 17",
-    "point": [
-      -28.204341888427734,
-      67.27628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 18",
-    "point": [
-      -27.811485290527344,
-      65.52628326416016,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 19",
-    "point": [
-      -27.418628692626953,
-      63.776283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 20",
-    "point": [
-      -27.025772094726562,
-      62.026283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 21",
-    "point": [
-      -26.632915496826172,
-      60.276283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 22",
-    "point": [
-      -26.24005699157715,
-      58.526283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 23",
-    "point": [
-      -25.847200393676758,
-      56.776283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 24",
-    "point": [
-      -25.454341888427734,
-      55.026283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 25",
-    "point": [
-      -25.061485290527344,
-      53.276283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 26",
-    "point": [
-      -24.668628692626953,
-      51.526283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 27",
-    "point": [
-      -24.27577018737793,
-      49.77627944946289,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 05 curb",
-    "b": "Quay edge 05 post 28",
-    "point": [
-      -23.88291358947754,
-      48.026283264160156,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 00",
-    "point": [
-      -23.885894775390625,
-      48.03715133666992,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 01",
-    "point": [
-      -23.347431182861328,
-      46.383304595947266,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 02",
-    "point": [
-      -22.80897331237793,
-      44.729461669921875,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 03",
-    "point": [
-      -22.270509719848633,
-      43.07561492919922,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 04",
-    "point": [
-      -21.73204803466797,
-      41.4217643737793,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 05",
-    "point": [
-      -21.193588256835938,
-      39.76791763305664,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 06",
-    "point": [
-      -20.655126571655273,
-      38.11407470703125,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 07",
-    "point": [
-      -20.116662979125977,
-      36.460227966308594,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 08",
-    "point": [
-      -19.578201293945312,
-      34.80638122558594,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 09",
-    "point": [
-      -19.03974151611328,
-      33.15253448486328,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 10",
-    "point": [
-      -18.501277923583984,
-      31.498687744140625,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
+    "label": "left concrete pier to plaza",
     "distance_to_a_m": 3.814697265625e-06,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 11",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 06",
     "point": [
-      -17.962818145751953,
-      29.8448429107666,
-      0.3799999952316284
+      -23.450050354003906,
+      72.20291137695312,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.353604163043201e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 07",
+    "point": [
+      -22.768232345581055,
+      68.38473510742188,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.7185199946397915e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 08",
+    "point": [
+      -22.086414337158203,
+      64.56654357910156,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.353604163043201e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 09",
+    "point": [
+      -21.40459632873535,
+      60.74837112426758,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.264961171429604e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 05 concrete pier 10",
+    "point": [
+      -20.7227783203125,
+      56.9301872253418,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 2.412626417935826e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 00",
+    "point": [
+      -27.881868362426758,
+      97.0210952758789,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 12",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 01",
     "point": [
-      -17.42435646057129,
-      28.190998077392578,
-      0.3799999952316284
+      -27.73480987548828,
+      96.19756317138672,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 02",
+    "point": [
+      -27.587751388549805,
+      95.37403869628906,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 03",
+    "point": [
+      -27.440690994262695,
+      94.55050659179688,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 04",
+    "point": [
+      -27.29363250732422,
+      93.72697448730469,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 05",
+    "point": [
+      -27.146574020385742,
+      92.90345001220703,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 06",
+    "point": [
+      -26.999515533447266,
+      92.07991790771484,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 08",
+    "point": [
+      -26.705398559570312,
+      90.432861328125,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 7.62939453125e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 09",
+    "point": [
+      -26.558338165283203,
+      89.60932922363281,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 10",
+    "point": [
+      -26.411279678344727,
+      88.78579711914062,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 11",
+    "point": [
+      -26.26422119140625,
+      87.96227264404297,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 12",
+    "point": [
+      -26.117162704467773,
+      87.13874053955078,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 13",
+    "point": [
+      -25.970104217529297,
+      86.31521606445312,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 14",
+    "point": [
+      -25.823043823242188,
+      85.49168395996094,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 15",
+    "point": [
+      -25.67598533630371,
+      84.66815185546875,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 17",
+    "point": [
+      -25.381868362426758,
+      83.0210952758789,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 7.864199687901419e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 18",
+    "point": [
+      -25.23480987548828,
+      82.19756317138672,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 19",
+    "point": [
+      -25.087751388549805,
+      81.37403869628906,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 20",
+    "point": [
+      -24.940692901611328,
+      80.55050659179688,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 22",
+    "point": [
+      -24.646574020385742,
+      78.90345001220703,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 7.62939453125e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 23",
+    "point": [
+      -24.499515533447266,
+      78.07991790771484,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 24",
+    "point": [
+      -24.35245704650879,
+      77.25639343261719,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 7.62939453125e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 25",
+    "point": [
+      -24.205398559570312,
+      76.432861328125,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 26",
+    "point": [
+      -24.058338165283203,
+      75.60932922363281,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 27",
+    "point": [
+      -23.911279678344727,
+      74.78579711914062,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 28",
+    "point": [
+      -23.76422119140625,
+      73.96227264404297,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 29",
+    "point": [
+      -23.617162704467773,
+      73.13874053955078,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 31",
+    "point": [
+      -23.323043823242188,
+      71.49168395996094,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 32",
+    "point": [
+      -23.175987243652344,
+      70.66815185546875,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 33",
+    "point": [
+      -23.028926849365234,
+      69.84461975097656,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 34",
+    "point": [
+      -22.881868362426758,
+      69.0210952758789,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 13",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 36",
     "point": [
-      -16.885894775390625,
-      26.537151336669922,
-      0.3799999952316284
+      -22.587749481201172,
+      67.37403869628906,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 14",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 37",
     "point": [
-      -16.34743309020996,
-      24.883304595947266,
-      0.3799999952316284
+      -22.440692901611328,
+      66.55050659179688,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 15",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 38",
     "point": [
-      -15.808972358703613,
-      23.22945785522461,
-      0.3799999952316284
+      -22.29363250732422,
+      65.72697448730469,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 16",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 39",
     "point": [
-      -15.270509719848633,
-      21.575611114501953,
-      0.3799999952316284
+      -22.146574020385742,
+      64.9034423828125,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 17",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 40",
     "point": [
-      -14.732048988342285,
-      19.92176628112793,
-      0.3799999952316284
+      -21.999515533447266,
+      64.07991790771484,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 2.1324806311895372e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 18",
-    "point": [
-      -14.193587303161621,
-      18.26791763305664,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 2.1324806311895372e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 19",
-    "point": [
-      -13.655126571655273,
-      16.61407470703125,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 2.1324806311895372e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 20",
-    "point": [
-      -13.11666488647461,
-      14.960227012634277,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 21",
-    "point": [
-      -12.578203201293945,
-      13.30638313293457,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 22",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 41",
     "point": [
-      -12.039741516113281,
-      11.652534484863281,
-      0.3799999952316284
+      -21.85245704650879,
+      63.25638961791992,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.814697265625e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 42",
+    "point": [
+      -21.705398559570312,
+      62.432857513427734,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 23",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 43",
     "point": [
-      -11.501280784606934,
-      9.998689651489258,
-      0.3799999952316284
+      -21.558338165283203,
+      61.60932922363281,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 24",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 45",
     "point": [
-      -10.96281909942627,
-      8.344842910766602,
-      0.3799999952316284
+      -21.26422119140625,
+      59.9622688293457,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.814697265625e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 46",
+    "point": [
+      -21.117162704467773,
+      59.13874053955078,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 25",
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 47",
     "point": [
-      -10.424357414245605,
-      6.690998077392578,
-      0.3799999952316284
+      -20.970104217529297,
+      58.31521224975586,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.814697265625e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 48",
+    "point": [
+      -20.82304573059082,
+      57.49168395996094,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
     "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 49",
+    "point": [
+      -20.67598533630371,
+      56.66815185546875,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 50",
+    "point": [
+      -20.528926849365234,
+      55.84462356567383,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 05 curb",
+    "b": "Quay edge 05 short blue bracket 51",
+    "point": [
+      -20.381868362426758,
+      55.021095275878906,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 00",
+    "point": [
+      -19.76654624938965,
+      53.113704681396484,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 1.206313208967913e-05,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 06 curb",
-    "b": "Quay edge 06 post 26",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 01",
     "point": [
-      -9.885895729064941,
-      5.0371503829956055,
-      0.3799999952316284
+      -18.52808380126953,
+      49.26755142211914,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 1.206313208967913e-05,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 02",
+    "point": [
+      -17.289623260498047,
+      45.42139434814453,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 8.698848250787705e-05,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 03",
+    "point": [
+      -16.05116081237793,
+      41.57524108886719,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.0235561755253e-05,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 04",
+    "point": [
+      -14.812699317932129,
+      37.729087829589844,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 7.050098065519705e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 05",
+    "point": [
+      -13.574237823486328,
+      33.8829345703125,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 1.928687015606556e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 06",
+    "point": [
+      -12.335776329040527,
+      30.036781311035156,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 0.0001966050040209666,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 07",
+    "point": [
+      -11.097314834594727,
+      26.19062614440918,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 0.0001448831899324432,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 08",
+    "point": [
+      -9.85885238647461,
+      22.344470977783203,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 0.00015682070807088166,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 09",
+    "point": [
+      -8.620391845703125,
+      18.498321533203125,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 7.676929817534983e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 10",
+    "point": [
+      -7.381930351257324,
+      14.652168273925781,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.0740986150922254e-05,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 11",
+    "point": [
+      -6.143468856811523,
+      10.806011199951172,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 4.3031745008192956e-05,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 06 concrete pier 12",
+    "point": [
+      -4.905006408691406,
+      6.959857940673828,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 1.9913304640795104e-05,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 00",
+    "point": [
+      -20.38577651977539,
+      55.036781311035156,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 01",
+    "point": [
+      -20.1260986328125,
+      54.23033142089844,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 02",
+    "point": [
+      -19.86642074584961,
+      53.42387771606445,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 03",
+    "point": [
+      -19.60674476623535,
+      52.617427825927734,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 04",
+    "point": [
+      -19.34706687927246,
+      51.81097412109375,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 05",
+    "point": [
+      -19.08738899230957,
+      51.00452423095703,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 06",
+    "point": [
+      -18.82771110534668,
+      50.19807052612305,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 08",
+    "point": [
+      -18.30835723876953,
+      48.585166931152344,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 09",
+    "point": [
+      -18.04867935180664,
+      47.778717041015625,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 10",
+    "point": [
+      -17.78900146484375,
+      46.972267150878906,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 11",
+    "point": [
+      -17.529325485229492,
+      46.16581344604492,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 13",
+    "point": [
+      -17.00996971130371,
+      44.55290985107422,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 14",
+    "point": [
+      -16.750293731689453,
+      43.7464599609375,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 15",
+    "point": [
+      -16.490615844726562,
+      42.940006256103516,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.815162926912308e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 16",
+    "point": [
+      -16.230937957763672,
+      42.1335563659668,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 17",
+    "point": [
+      -15.971260070800781,
+      41.32710266113281,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 18",
+    "point": [
+      -15.711583137512207,
+      40.520652770996094,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 19",
+    "point": [
+      -15.451905250549316,
+      39.71419906616211,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 20",
+    "point": [
+      -15.192228317260742,
+      38.90774917602539,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.815162926912308e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 21",
+    "point": [
+      -14.932550430297852,
+      38.101295471191406,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 22",
+    "point": [
+      -14.672873497009277,
+      37.29484558105469,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 23",
+    "point": [
+      -14.413195610046387,
+      36.48839569091797,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 24",
+    "point": [
+      -14.153518676757812,
+      35.681941986083984,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.9325518628174905e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 25",
+    "point": [
+      -13.893840789794922,
+      34.87548828125,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 27",
+    "point": [
+      -13.374485969543457,
+      33.26258850097656,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 28",
+    "point": [
+      -13.114809036254883,
+      32.456138610839844,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 29",
+    "point": [
+      -12.855131149291992,
+      31.64968490600586,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 30",
+    "point": [
+      -12.595453262329102,
+      30.843233108520508,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 32",
+    "point": [
+      -12.076099395751953,
+      29.230329513549805,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 33",
+    "point": [
+      -11.816421508789062,
+      28.423877716064453,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 34",
+    "point": [
+      -11.556743621826172,
+      27.6174259185791,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 2.133313500962686e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 35",
+    "point": [
+      -11.297066688537598,
+      26.81097412109375,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 2.133313500962686e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 37",
+    "point": [
+      -10.777711868286133,
+      25.19807243347168,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 38",
+    "point": [
+      -10.518033981323242,
+      24.391618728637695,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 39",
+    "point": [
+      -10.258356094360352,
+      23.585166931152344,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 40",
+    "point": [
+      -9.998680114746094,
+      22.778717041015625,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 41",
+    "point": [
+      -9.739002227783203,
+      21.972267150878906,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 42",
+    "point": [
+      -9.479325294494629,
+      21.165813446044922,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 43",
+    "point": [
+      -9.219647407531738,
+      20.359363555908203,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 44",
+    "point": [
+      -8.959970474243164,
+      19.55290985107422,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 45",
+    "point": [
+      -8.700292587280273,
+      18.7464599609375,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 46",
+    "point": [
+      -8.440614700317383,
+      17.940006256103516,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 47",
+    "point": [
+      -8.180937767028809,
+      17.133556365966797,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 1.90827972801344e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 48",
+    "point": [
+      -7.921259880065918,
+      16.327102661132812,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 49",
+    "point": [
+      -7.661582946777344,
+      15.520652770996094,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 51",
+    "point": [
+      -7.142228126525879,
+      13.90774917602539,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 52",
+    "point": [
+      -6.882550239562988,
+      13.101295471191406,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 53",
+    "point": [
+      -6.622872352600098,
+      12.294845581054688,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 54",
+    "point": [
+      -6.363195419311523,
+      11.488391876220703,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 56",
+    "point": [
+      -5.843841552734375,
+      9.875492095947266,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 57",
+    "point": [
+      -5.584163665771484,
+      9.069042205810547,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 58",
+    "point": [
+      -5.32448673248291,
+      8.262588500976562,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 59",
+    "point": [
+      -5.0648088455200195,
+      7.456138610839844,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 60",
+    "point": [
+      -4.805130958557129,
+      6.649684906005859,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 61",
+    "point": [
+      -4.545454025268555,
+      5.843235015869141,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 06 curb",
+    "b": "Quay edge 06 short blue bracket 62",
+    "point": [
+      -4.285776138305664,
+      5.036781311035156,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 3.0163719202391803e-06,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 07 concrete pier 00",
+    "point": [
+      -4.240033149719238,
+      3.3028228282928467,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 2.384185791015625e-07,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 07 concrete pier 01",
+    "point": [
+      -4.160033226013184,
+      -0.09717702865600586,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 9.387731552124023e-07,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 07 concrete pier 02",
+    "point": [
+      -4.080032825469971,
+      -3.4971771240234375,
+      0.0
+    ],
+    "frame": null,
+    "label": "left concrete pier to plaza",
     "distance_to_a_m": 4.76837158203125e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 00",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 07 concrete pier 03",
     "point": [
-      -9.880207061767578,
-      5.007046699523926,
-      0.3799999952316284
+      -4.000032901763916,
+      -6.897177696228027,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "label": "left concrete pier to plaza",
+    "distance_to_a_m": 1.0662403155947686e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 01",
+    "a": "Plaza and solid quay foundation",
+    "b": "Quay edge 07 concrete pier 04",
     "point": [
-      -9.780206680297852,
-      3.307046413421631,
-      0.3799999952316284
+      -3.9200329780578613,
+      -10.2971773147583,
+      0.0
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 02",
-    "point": [
-      -9.680207252502441,
-      1.6070470809936523,
-      0.3799999952316284
-    ],
-    "frame": null,
-    "label": "guard post to curb",
+    "label": "left concrete pier to plaza",
     "distance_to_a_m": 2.384185791015625e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
@@ -2056,121 +3106,301 @@
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 03",
+    "b": "Quay edge 07 short blue bracket 00",
     "point": [
-      -9.580206871032715,
-      -0.09295344352722168,
-      0.3799999952316284
+      -4.280033111572266,
+      5.0028228759765625,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 2.384185791015625e-07,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 04",
+    "b": "Quay edge 07 short blue bracket 01",
     "point": [
-      -9.480207443237305,
-      -1.7929530143737793,
-      0.3799999952316284
+      -4.260985374450684,
+      4.193299293518066,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 05",
+    "b": "Quay edge 07 short blue bracket 03",
     "point": [
-      -9.380207061767578,
-      -3.492953300476074,
-      0.3799999952316284
+      -4.222890377044678,
+      2.574251413345337,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 2.4575624024691933e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 06",
+    "b": "Quay edge 07 short blue bracket 04",
     "point": [
-      -9.280206680297852,
-      -5.192953586578369,
-      0.3799999952316284
+      -4.203842639923096,
+      1.7647275924682617,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 2.4575624024691933e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 07",
+    "b": "Quay edge 07 short blue bracket 05",
     "point": [
-      -9.180207252502441,
-      -6.892952919006348,
-      0.3799999952316284
+      -4.184794902801514,
+      0.9552035331726074,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 4.76837158203125e-07,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 08",
+    "b": "Quay edge 07 short blue bracket 06",
     "point": [
-      -9.080206871032715,
-      -8.5929536819458,
-      0.3799999952316284
+      -4.165747165679932,
+      0.14567995071411133,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 09",
+    "b": "Quay edge 07 short blue bracket 07",
     "point": [
-      -8.980207443237305,
-      -10.292952537536621,
-      0.3799999952316284
+      -4.146699905395508,
+      -0.663844108581543,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
     "a": "Quay edge 07 curb",
-    "b": "Quay edge 07 post 10",
+    "b": "Quay edge 07 short blue bracket 08",
     "point": [
-      -8.880207061767578,
-      -11.992953300476074,
-      0.3799999952316284
+      -4.127652168273926,
+      -1.473367691040039,
+      0.8199999928474426
     ],
     "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 09",
+    "point": [
+      -4.108604431152344,
+      -2.282891273498535,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 10",
+    "point": [
+      -4.089556694030762,
+      -3.0924158096313477,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 11",
+    "point": [
+      -4.070509433746338,
+      -3.9019393920898438,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 9.555351425660774e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 12",
+    "point": [
+      -4.051461696624756,
+      -4.71146297454834,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 13",
+    "point": [
+      -4.032413959503174,
+      -5.520986557006836,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 14",
+    "point": [
+      -4.013366222381592,
+      -6.330511093139648,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 15",
+    "point": [
+      -3.994318723678589,
+      -7.1400346755981445,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 16",
+    "point": [
+      -3.975271224975586,
+      -7.949558258056641,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 4.805480102731963e-07,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 17",
+    "point": [
+      -3.956223487854004,
+      -8.759081840515137,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 18",
+    "point": [
+      -3.937175750732422,
+      -9.568605422973633,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 20",
+    "point": [
+      -3.899080514907837,
+      -11.187654495239258,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Quay edge 07 curb",
+    "b": "Quay edge 07 short blue bracket 21",
+    "point": [
+      -3.880033016204834,
+      -11.997177124023438,
+      0.8199999928474426
+    ],
+    "frame": null,
+    "label": "short bracket to concrete wall",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 5.960464477539063e-08,
     "triangles_intersect": true,
     "pass": true
   },
@@ -2178,7 +3408,7 @@
     "a": "South west guard curb",
     "b": "South west guard post 00",
     "point": [
-      -9.0,
+      -4.0,
       -11.880000114440918,
       0.20000000298023224
     ],
@@ -2192,51 +3422,6 @@
   {
     "a": "South west guard curb",
     "b": "South west guard post 01",
-    "point": [
-      -7.5,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South west guard curb",
-    "b": "South west guard post 02",
-    "point": [
-      -6.0,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South west guard curb",
-    "b": "South west guard post 03",
-    "point": [
-      -4.5,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 9.5367431640625e-07,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South west guard curb",
-    "b": "South west guard post 04",
     "point": [
       -3.0,
       -11.880000114440918,
@@ -2254,7 +3439,7 @@
     "b": "South east guard post 00",
     "point": [
       8.0,
-      -11.880000114440918,
+      -12.119999885559082,
       0.20000000298023224
     ],
     "frame": null,
@@ -2268,8 +3453,8 @@
     "a": "South east guard curb",
     "b": "South east guard post 01",
     "point": [
-      9.571428298950195,
-      -11.880000114440918,
+      6.813551902770996,
+      -12.119999885559082,
       0.20000000298023224
     ],
     "frame": null,
@@ -2283,105 +3468,30 @@
     "a": "South east guard curb",
     "b": "South east guard post 02",
     "point": [
-      11.14285659790039,
-      -11.880000114440918,
+      5.627103328704834,
+      -12.119999885559082,
       0.20000000298023224
     ],
     "frame": null,
     "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 4.88112561924936e-07,
     "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
+    "triangles_intersect": false,
     "pass": true
   },
   {
-    "a": "South east guard curb",
-    "b": "South east guard post 03",
+    "a": "Viewpoint — ten equal curved steps",
+    "b": "Viewpoint left masonry parapet",
     "point": [
-      12.714285850524902,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South east guard curb",
-    "b": "South east guard post 04",
-    "point": [
-      14.285715103149414,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South east guard curb",
-    "b": "South east guard post 05",
-    "point": [
-      15.85714340209961,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South east guard curb",
-    "b": "South east guard post 06",
-    "point": [
-      17.428571701049805,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "South east guard curb",
-    "b": "South east guard post 07",
-    "point": [
-      19.0,
-      -11.880000114440918,
-      0.20000000298023224
-    ],
-    "frame": null,
-    "label": "guard post to curb",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Viewpoint — ten equal steps",
-    "b": "Viewpoint upper landing",
-    "point": [
-      0,
-      3.2,
+      -3.6,
+      4,
       1.8
     ],
     "frame": "Viewpoint stair assembly",
-    "label": "top tread to landing",
+    "label": "curved stair to left parapet",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
-    "triangles_intersect": false,
+    "triangles_intersect": true,
     "pass": true
   },
   {
@@ -2395,7 +3505,7 @@
     "frame": "Main shelter",
     "label": "longitudinal beam to roof",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.00011771602294174954,
+    "distance_to_b_m": 0.0001246555329998955,
     "triangles_intersect": true,
     "pass": true
   },
@@ -2410,15 +3520,15 @@
     "frame": "Main shelter",
     "label": "longitudinal beam to roof",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.00011771602294174954,
+    "distance_to_b_m": 0.0001180000981548801,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Main shelter footing -1.95 -1.28",
-    "b": "Main shelter column -1.95 -1.28",
+    "a": "Main shelter footing -1.45 -1.28",
+    "b": "Main shelter column -1.45 -1.28",
     "point": [
-      -1.95,
+      -1.45,
       -1.28,
       0.12
     ],
@@ -2430,40 +3540,40 @@
     "pass": true
   },
   {
-    "a": "Main shelter column -1.95 -1.28",
+    "a": "Main shelter column -1.45 -1.28",
     "b": "Main shelter longitudinal beam -1.28",
     "point": [
-      -1.95,
+      -1.45,
       -1.28,
       2.620688837074973
     ],
     "frame": "Main shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.76837158203125e-07,
+    "distance_to_b_m": 1.1920928955078125e-06,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Main shelter footing -1.95 -1.28",
+    "b": "Main shelter footing -1.45 -1.28",
     "point": [
-      -1.95,
+      -1.45,
       -1.28,
       0
     ],
     "frame": "Main shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 4.2649612623790745e-06,
+    "distance_to_a_m": 4.163801349932328e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Main shelter footing -1.95 1.28",
-    "b": "Main shelter column -1.95 1.28",
+    "a": "Main shelter footing -1.45 1.28",
+    "b": "Main shelter column -1.45 1.28",
     "point": [
-      -1.95,
+      -1.45,
       1.28,
       0.12
     ],
@@ -2475,10 +3585,10 @@
     "pass": true
   },
   {
-    "a": "Main shelter column -1.95 1.28",
+    "a": "Main shelter column -1.45 1.28",
     "b": "Main shelter longitudinal beam 1.28",
     "point": [
-      -1.95,
+      -1.45,
       1.28,
       2.620688837074973
     ],
@@ -2491,9 +3601,99 @@
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Main shelter footing -1.95 1.28",
+    "b": "Main shelter footing -1.45 1.28",
     "point": [
-      -1.95,
+      -1.45,
+      1.28,
+      0
+    ],
+    "frame": "Main shelter",
+    "label": "shelter footing to plaza",
+    "distance_to_a_m": 1.0728836059570312e-06,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Main shelter footing 1.45 -1.28",
+    "b": "Main shelter column 1.45 -1.28",
+    "point": [
+      1.45,
+      -1.28,
+      0.12
+    ],
+    "frame": "Main shelter",
+    "label": "column foot to foundation",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Main shelter column 1.45 -1.28",
+    "b": "Main shelter longitudinal beam -1.28",
+    "point": [
+      1.45,
+      -1.28,
+      2.620688837074973
+    ],
+    "frame": "Main shelter",
+    "label": "column head to beam",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 3.932099843950709e-06,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Main shelter footing 1.45 -1.28",
+    "point": [
+      1.45,
+      -1.28,
+      0
+    ],
+    "frame": "Main shelter",
+    "label": "shelter footing to plaza",
+    "distance_to_a_m": 4.76837158203125e-07,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Main shelter footing 1.45 1.28",
+    "b": "Main shelter column 1.45 1.28",
+    "point": [
+      1.45,
+      1.28,
+      0.12
+    ],
+    "frame": "Main shelter",
+    "label": "column foot to foundation",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Main shelter column 1.45 1.28",
+    "b": "Main shelter longitudinal beam 1.28",
+    "point": [
+      1.45,
+      1.28,
+      2.620688837074973
+    ],
+    "frame": "Main shelter",
+    "label": "column head to beam",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 1.430511474609375e-06,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Plaza and solid quay foundation",
+    "b": "Main shelter footing 1.45 1.28",
+    "point": [
+      1.45,
       1.28,
       0
     ],
@@ -2505,106 +3705,16 @@
     "pass": true
   },
   {
-    "a": "Main shelter footing 1.95 -1.28",
-    "b": "Main shelter column 1.95 -1.28",
-    "point": [
-      1.95,
-      -1.28,
-      0.12
-    ],
-    "frame": "Main shelter",
-    "label": "column foot to foundation",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Main shelter column 1.95 -1.28",
-    "b": "Main shelter longitudinal beam -1.28",
-    "point": [
-      1.95,
-      -1.28,
-      2.620688837074973
-    ],
-    "frame": "Main shelter",
-    "label": "column head to beam",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Plaza and solid quay foundation",
-    "b": "Main shelter footing 1.95 -1.28",
-    "point": [
-      1.95,
-      -1.28,
-      0
-    ],
-    "frame": "Main shelter",
-    "label": "shelter footing to plaza",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Main shelter footing 1.95 1.28",
-    "b": "Main shelter column 1.95 1.28",
-    "point": [
-      1.95,
-      1.28,
-      0.12
-    ],
-    "frame": "Main shelter",
-    "label": "column foot to foundation",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Main shelter column 1.95 1.28",
-    "b": "Main shelter longitudinal beam 1.28",
-    "point": [
-      1.95,
-      1.28,
-      2.620688837074973
-    ],
-    "frame": "Main shelter",
-    "label": "column head to beam",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Plaza and solid quay foundation",
-    "b": "Main shelter footing 1.95 1.28",
-    "point": [
-      1.95,
-      1.28,
-      0
-    ],
-    "frame": "Main shelter",
-    "label": "shelter footing to plaza",
-    "distance_to_a_m": 1.9073486328125e-06,
-    "distance_to_b_m": 0.0,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
     "a": "Main shelter transverse arched rib 0",
     "b": "Main shelter longitudinal beam -1.28",
     "point": [
-      -1.95,
+      -1.45,
       -1.28,
       2.785688837074973
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.0423923023045063,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2613,13 +3723,13 @@
     "a": "Main shelter transverse arched rib 0",
     "b": "Main shelter longitudinal beam 1.28",
     "point": [
-      -1.95,
+      -1.45,
       1.28,
       2.785688837074973
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239152744412422,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2634,7 +3744,7 @@
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239234700798988,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2649,7 +3759,7 @@
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239234700798988,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2658,13 +3768,13 @@
     "a": "Main shelter transverse arched rib 2",
     "b": "Main shelter longitudinal beam -1.28",
     "point": [
-      1.95,
+      1.45,
       -1.28,
       2.785688837074973
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.042391784489154816,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2673,13 +3783,13 @@
     "a": "Main shelter transverse arched rib 2",
     "b": "Main shelter longitudinal beam 1.28",
     "point": [
-      1.95,
+      1.45,
       1.28,
       2.785688837074973
     ],
     "frame": "Main shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.0423923023045063,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -2692,9 +3802,9 @@
       -0.21,
       0
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 1.1920928955078125e-06,
+    "distance_to_a_m": 3.82214057026431e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -2707,9 +3817,9 @@
       0.21,
       0
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 3.881173142872285e-06,
+    "distance_to_a_m": 4.76837158203125e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -2722,9 +3832,9 @@
       -0.21,
       0
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 7.152557373046875e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -2737,9 +3847,9 @@
       0.21,
       0
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 4.2649612623790745e-06,
+    "distance_to_a_m": 3.814697265625e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -2752,7 +3862,7 @@
       -0.21,
       0.42
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -2767,7 +3877,7 @@
       0.21,
       0.42
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -2782,7 +3892,7 @@
       -0.21,
       0.42
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -2797,7 +3907,7 @@
       0.21,
       0.42
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -2812,7 +3922,7 @@
       -0.2224999964237213,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 4.76837158203125e-07,
@@ -2827,10 +3937,10 @@
       -0.07249999791383743,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.76837158203125e-07,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -2842,10 +3952,10 @@
       0.07750000059604645,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.76837158203125e-07,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -2857,7 +3967,7 @@
       0.22749999165534973,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 4.76837158203125e-07,
@@ -2872,10 +3982,10 @@
       -0.2224999964237213,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 9.5367431640625e-07,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -2887,10 +3997,10 @@
       -0.07249999791383743,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.76837158203125e-07,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -2902,10 +4012,10 @@
       0.07750000059604645,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 9.5367431640625e-07,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -2917,41 +4027,11 @@
       0.22749999165534973,
       0.41999998688697815
     ],
-    "frame": "Main shelter",
+    "frame": "Main shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.76837158203125e-07,
+    "distance_to_b_m": 0.0,
     "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Main shelter bench leg -0.84 0.21",
-    "b": "Main shelter bench back upright -0.84",
-    "point": [
-      -0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Main shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.020000457763671875,
-    "distance_to_b_m": 0.024997711181640625,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Main shelter bench leg 0.84 0.21",
-    "b": "Main shelter bench back upright 0.84",
-    "point": [
-      0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Main shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.020000457763671875,
-    "distance_to_b_m": 0.024997711181640625,
-    "triangles_intersect": true,
     "pass": true
   },
   {
@@ -2964,8 +4044,8 @@
     ],
     "frame": "Rear shelter",
     "label": "longitudinal beam to roof",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.00011733006249414757,
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 0.00011831736628664657,
     "triangles_intersect": true,
     "pass": true
   },
@@ -2979,61 +4059,61 @@
     ],
     "frame": "Rear shelter",
     "label": "longitudinal beam to roof",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.00011733004066627473,
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 0.0001173083801404573,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter footing -1.85 -1.28",
-    "b": "Rear shelter column -1.85 -1.28",
+    "a": "Rear shelter footing -1.35 -1.28",
+    "b": "Rear shelter column -1.35 -1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       -1.28,
       0.12
     ],
     "frame": "Rear shelter",
     "label": "column foot to foundation",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 2.9802322387695312e-08,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter column -1.85 -1.28",
+    "a": "Rear shelter column -1.35 -1.28",
     "b": "Rear shelter longitudinal beam -1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       -1.28,
       2.620688837074973
     ],
     "frame": "Rear shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 1.430511474609375e-06,
+    "distance_to_b_m": 8.344650268554688e-07,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Rear shelter footing -1.85 -1.28",
+    "b": "Rear shelter footing -1.35 -1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       -1.28,
       0
     ],
     "frame": "Rear shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 2.7418136596679688e-06,
-    "distance_to_b_m": 5.960464477539063e-08,
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 2.9802322387695312e-08,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter footing -1.85 1.28",
-    "b": "Rear shelter column -1.85 1.28",
+    "a": "Rear shelter footing -1.35 1.28",
+    "b": "Rear shelter column -1.35 1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       1.28,
       0.12
     ],
@@ -3045,40 +4125,40 @@
     "pass": true
   },
   {
-    "a": "Rear shelter column -1.85 1.28",
+    "a": "Rear shelter column -1.35 1.28",
     "b": "Rear shelter longitudinal beam 1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       1.28,
       2.620688837074973
     ],
     "frame": "Rear shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 1.430511474609375e-06,
+    "distance_to_b_m": 8.344650268554688e-07,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Rear shelter footing -1.85 1.28",
+    "b": "Rear shelter footing -1.35 1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       1.28,
       0
     ],
     "frame": "Rear shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 3.881173142872285e-06,
+    "distance_to_a_m": 2.9802322387695312e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter footing 1.85 -1.28",
-    "b": "Rear shelter column 1.85 -1.28",
+    "a": "Rear shelter footing 1.35 -1.28",
+    "b": "Rear shelter column 1.35 -1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       -1.28,
       0.12
     ],
@@ -3090,76 +4170,76 @@
     "pass": true
   },
   {
-    "a": "Rear shelter column 1.85 -1.28",
+    "a": "Rear shelter column 1.35 -1.28",
     "b": "Rear shelter longitudinal beam -1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       -1.28,
       2.620688837074973
     ],
     "frame": "Rear shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 4.76837158203125e-07,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Rear shelter footing 1.85 -1.28",
+    "b": "Rear shelter footing 1.35 -1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       -1.28,
       0
     ],
     "frame": "Rear shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 5.7980338169727474e-05,
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter footing 1.85 1.28",
-    "b": "Rear shelter column 1.85 1.28",
+    "a": "Rear shelter footing 1.35 1.28",
+    "b": "Rear shelter column 1.35 1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       1.28,
       0.12
     ],
     "frame": "Rear shelter",
     "label": "column foot to foundation",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 1.1920928955078125e-07,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Rear shelter column 1.85 1.28",
+    "a": "Rear shelter column 1.35 1.28",
     "b": "Rear shelter longitudinal beam 1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       1.28,
       2.620688837074973
     ],
     "frame": "Rear shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 8.344650268554688e-07,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Rear shelter footing 1.85 1.28",
+    "b": "Rear shelter footing 1.35 1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       1.28,
       0
     ],
     "frame": "Rear shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 7.64521028031595e-05,
+    "distance_to_a_m": 1.6689300537109375e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3168,13 +4248,13 @@
     "a": "Rear shelter transverse arched rib 0",
     "b": "Rear shelter longitudinal beam -1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       -1.28,
       2.785688837074973
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239294305443764,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3183,13 +4263,13 @@
     "a": "Rear shelter transverse arched rib 0",
     "b": "Rear shelter longitudinal beam 1.28",
     "point": [
-      -1.8499999999999999,
+      -1.35,
       1.28,
       2.785688837074973
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.0423923134803772,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3204,7 +4284,7 @@
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239232465624809,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3219,7 +4299,7 @@
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239232465624809,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3228,13 +4308,13 @@
     "a": "Rear shelter transverse arched rib 2",
     "b": "Rear shelter longitudinal beam -1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       -1.28,
       2.785688837074973
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.04239234700798988,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3243,13 +4323,13 @@
     "a": "Rear shelter transverse arched rib 2",
     "b": "Rear shelter longitudinal beam 1.28",
     "point": [
-      1.8499999999999999,
+      1.35,
       1.28,
       2.785688837074973
     ],
     "frame": "Rear shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239178076386452,
+    "distance_to_a_m": 0.042392946779727936,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3262,9 +4342,9 @@
       -0.21,
       0
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 4.376783181214705e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3277,9 +4357,9 @@
       0.21,
       0
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 5.960464477539062e-07,
+    "distance_to_a_m": 7.152557373046875e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3292,9 +4372,9 @@
       -0.21,
       0
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 1.925294600368943e-05,
+    "distance_to_a_m": 4.074098342243815e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3307,9 +4387,9 @@
       0.21,
       0
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 2.7260117349214852e-05,
+    "distance_to_a_m": 1.430511474609375e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3322,10 +4402,10 @@
       -0.21,
       0.42
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 4.470348358154297e-08,
+    "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
@@ -3337,7 +4417,7 @@
       0.21,
       0.42
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3352,7 +4432,7 @@
       -0.21,
       0.42
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3367,10 +4447,10 @@
       0.21,
       0.42
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 2.9802322387695312e-08,
     "triangles_intersect": true,
     "pass": true
   },
@@ -3382,10 +4462,10 @@
       -0.2224999964237213,
       0.41999998688697815
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "seat slat to bearer",
-    "distance_to_a_m": 1.4901161193847656e-08,
-    "distance_to_b_m": 2.980232238769531e-07,
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 3.5762786865234375e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -3397,10 +4477,10 @@
       -0.07249999791383743,
       0.41999998688697815
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "seat slat to bearer",
-    "distance_to_a_m": 4.470348358154297e-08,
-    "distance_to_b_m": 1.0132789611816406e-06,
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 2.384185791015625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -3412,10 +4492,10 @@
       0.07750000059604645,
       0.41999998688697815
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
     "label": "seat slat to bearer",
-    "distance_to_a_m": 1.4901161193847656e-08,
-    "distance_to_b_m": 2.980232238769531e-07,
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 4.76837158203125e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -3427,101 +4507,71 @@
       0.22749999165534973,
       0.41999998688697815
     ],
-    "frame": "Rear shelter",
+    "frame": "Rear shelter bench assembly",
+    "label": "seat slat to bearer",
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 3.5762786865234375e-07,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Rear shelter bench seat bearer 0.84",
+    "b": "Rear shelter bench seat slat 0",
+    "point": [
+      0.8399999737739563,
+      -0.2224999964237213,
+      0.41999998688697815
+    ],
+    "frame": "Rear shelter bench assembly",
+    "label": "seat slat to bearer",
+    "distance_to_a_m": 5.960464477539063e-08,
+    "distance_to_b_m": 2.980232238769531e-07,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Rear shelter bench seat bearer 0.84",
+    "b": "Rear shelter bench seat slat 1",
+    "point": [
+      0.8399999737739563,
+      -0.07249999791383743,
+      0.41999998688697815
+    ],
+    "frame": "Rear shelter bench assembly",
+    "label": "seat slat to bearer",
+    "distance_to_a_m": 1.1920928955078125e-07,
+    "distance_to_b_m": 2.980232238769531e-07,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Rear shelter bench seat bearer 0.84",
+    "b": "Rear shelter bench seat slat 2",
+    "point": [
+      0.8399999737739563,
+      0.07750000059604645,
+      0.41999998688697815
+    ],
+    "frame": "Rear shelter bench assembly",
+    "label": "seat slat to bearer",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": false,
+    "pass": true
+  },
+  {
+    "a": "Rear shelter bench seat bearer 0.84",
+    "b": "Rear shelter bench seat slat 3",
+    "point": [
+      0.8399999737739563,
+      0.22749999165534973,
+      0.41999998688697815
+    ],
+    "frame": "Rear shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 2.9802322387695312e-08,
-    "distance_to_b_m": 1.0132789611816406e-06,
+    "distance_to_b_m": 2.682209014892578e-07,
     "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench seat bearer 0.84",
-    "b": "Rear shelter bench seat slat 0",
-    "point": [
-      0.8399999737739563,
-      -0.2224999964237213,
-      0.41999998688697815
-    ],
-    "frame": "Rear shelter",
-    "label": "seat slat to bearer",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 2.384185791015625e-07,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench seat bearer 0.84",
-    "b": "Rear shelter bench seat slat 1",
-    "point": [
-      0.8399999737739563,
-      -0.07249999791383743,
-      0.41999998688697815
-    ],
-    "frame": "Rear shelter",
-    "label": "seat slat to bearer",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 3.5762786865234375e-07,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench seat bearer 0.84",
-    "b": "Rear shelter bench seat slat 2",
-    "point": [
-      0.8399999737739563,
-      0.07750000059604645,
-      0.41999998688697815
-    ],
-    "frame": "Rear shelter",
-    "label": "seat slat to bearer",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 2.384185791015625e-07,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench seat bearer 0.84",
-    "b": "Rear shelter bench seat slat 3",
-    "point": [
-      0.8399999737739563,
-      0.22749999165534973,
-      0.41999998688697815
-    ],
-    "frame": "Rear shelter",
-    "label": "seat slat to bearer",
-    "distance_to_a_m": 0.0,
-    "distance_to_b_m": 3.5762786865234375e-07,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench leg -0.84 0.21",
-    "b": "Rear shelter bench back upright -0.84",
-    "point": [
-      -0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Rear shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.020000457763671875,
-    "distance_to_b_m": 0.024997711181640625,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Rear shelter bench leg 0.84 0.21",
-    "b": "Rear shelter bench back upright 0.84",
-    "point": [
-      0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Rear shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.020000457763671875,
-    "distance_to_b_m": 0.024997711181640625,
-    "triangles_intersect": true,
     "pass": true
   },
   {
@@ -3535,7 +4585,7 @@
     "frame": "Far shelter",
     "label": "longitudinal beam to roof",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0001160194879048504,
+    "distance_to_b_m": 0.0001237337273778394,
     "triangles_intersect": true,
     "pass": true
   },
@@ -3550,15 +4600,15 @@
     "frame": "Far shelter",
     "label": "longitudinal beam to roof",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.00011602340964600444,
+    "distance_to_b_m": 0.00012486307241488248,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Far shelter footing -1.75 -1.28",
-    "b": "Far shelter column -1.75 -1.28",
+    "a": "Far shelter footing -1.30 -1.28",
+    "b": "Far shelter column -1.30 -1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       -1.28,
       0.12
     ],
@@ -3570,10 +4620,10 @@
     "pass": true
   },
   {
-    "a": "Far shelter column -1.75 -1.28",
+    "a": "Far shelter column -1.30 -1.28",
     "b": "Far shelter longitudinal beam -1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       -1.28,
       2.620688837074973
     ],
@@ -3586,24 +4636,24 @@
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Far shelter footing -1.75 -1.28",
+    "b": "Far shelter footing -1.30 -1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       -1.28,
       0
     ],
     "frame": "Far shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 3.814697265625e-06,
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Far shelter footing -1.75 1.28",
-    "b": "Far shelter column -1.75 1.28",
+    "a": "Far shelter footing -1.30 1.28",
+    "b": "Far shelter column -1.30 1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       1.28,
       0.12
     ],
@@ -3615,10 +4665,10 @@
     "pass": true
   },
   {
-    "a": "Far shelter column -1.75 1.28",
+    "a": "Far shelter column -1.30 1.28",
     "b": "Far shelter longitudinal beam 1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       1.28,
       2.620688837074973
     ],
@@ -3631,24 +4681,24 @@
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Far shelter footing -1.75 1.28",
+    "b": "Far shelter footing -1.30 1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       1.28,
       0
     ],
     "frame": "Far shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 2.4425980882369913e-05,
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Far shelter footing 1.75 -1.28",
-    "b": "Far shelter column 1.75 -1.28",
+    "a": "Far shelter footing 1.30 -1.28",
+    "b": "Far shelter column 1.30 -1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       -1.28,
       0.12
     ],
@@ -3660,40 +4710,40 @@
     "pass": true
   },
   {
-    "a": "Far shelter column 1.75 -1.28",
+    "a": "Far shelter column 1.30 -1.28",
     "b": "Far shelter longitudinal beam -1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       -1.28,
       2.620688837074973
     ],
     "frame": "Far shelter",
     "label": "column head to beam",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 9.5367431640625e-07,
+    "distance_to_b_m": 0.0,
     "triangles_intersect": false,
     "pass": true
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Far shelter footing 1.75 -1.28",
+    "b": "Far shelter footing 1.30 -1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       -1.28,
       0
     ],
     "frame": "Far shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 7.864199687901419e-06,
+    "distance_to_a_m": 9.5367431640625e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Far shelter footing 1.75 1.28",
-    "b": "Far shelter column 1.75 1.28",
+    "a": "Far shelter footing 1.30 1.28",
+    "b": "Far shelter column 1.30 1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       1.28,
       0.12
     ],
@@ -3705,10 +4755,10 @@
     "pass": true
   },
   {
-    "a": "Far shelter column 1.75 1.28",
+    "a": "Far shelter column 1.30 1.28",
     "b": "Far shelter longitudinal beam 1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       1.28,
       2.620688837074973
     ],
@@ -3721,15 +4771,15 @@
   },
   {
     "a": "Plaza and solid quay foundation",
-    "b": "Far shelter footing 1.75 1.28",
+    "b": "Far shelter footing 1.30 1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       1.28,
       0
     ],
     "frame": "Far shelter",
     "label": "shelter footing to plaza",
-    "distance_to_a_m": 7.68876816437114e-06,
+    "distance_to_a_m": 1.4557206668541767e-05,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3738,13 +4788,13 @@
     "a": "Far shelter transverse arched rib 0",
     "b": "Far shelter longitudinal beam -1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       -1.28,
       2.785688837074973
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.04239436239004135,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3753,13 +4803,13 @@
     "a": "Far shelter transverse arched rib 0",
     "b": "Far shelter longitudinal beam 1.28",
     "point": [
-      -1.7500000000000002,
+      -1.3,
       1.28,
       2.785688837074973
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.04239436239004135,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3774,7 +4824,7 @@
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.04239063337445259,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3789,7 +4839,7 @@
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.042390283197164536,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3798,13 +4848,13 @@
     "a": "Far shelter transverse arched rib 2",
     "b": "Far shelter longitudinal beam -1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       -1.28,
       2.785688837074973
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.04239436239004135,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3813,13 +4863,13 @@
     "a": "Far shelter transverse arched rib 2",
     "b": "Far shelter longitudinal beam 1.28",
     "point": [
-      1.7500000000000002,
+      1.3,
       1.28,
       2.785688837074973
     ],
     "frame": "Far shelter",
     "label": "arched rib to edge beam",
-    "distance_to_a_m": 0.04239343851804733,
+    "distance_to_a_m": 0.04239436239004135,
     "distance_to_b_m": 0.05500006675720215,
     "triangles_intersect": true,
     "pass": true
@@ -3832,7 +4882,7 @@
       -0.21,
       0
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench foot to supporting deck",
     "distance_to_a_m": 1.9073486328125e-06,
     "distance_to_b_m": 0.0,
@@ -3847,9 +4897,9 @@
       0.21,
       0
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 9.5367431640625e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3862,9 +4912,9 @@
       -0.21,
       0
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 8.14819668448763e-06,
+    "distance_to_a_m": 3.814697265625e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3877,9 +4927,9 @@
       0.21,
       0
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench foot to supporting deck",
-    "distance_to_a_m": 9.5367431640625e-07,
+    "distance_to_a_m": 8.529922524758149e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -3892,7 +4942,7 @@
       -0.21,
       0.42
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3907,10 +4957,10 @@
       0.21,
       0.42
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 7.62939453125e-06,
+    "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
@@ -3922,7 +4972,7 @@
       -0.21,
       0.42
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3937,7 +4987,7 @@
       0.21,
       0.42
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "bench leg to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3952,7 +5002,7 @@
       -0.2224999964237213,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3967,10 +5017,10 @@
       -0.07249999791383743,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 0.0,
+    "distance_to_b_m": 7.68876816437114e-06,
     "triangles_intersect": false,
     "pass": true
   },
@@ -3982,7 +5032,7 @@
       0.07750000059604645,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -3997,10 +5047,10 @@
       0.22749999165534973,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
-    "distance_to_a_m": 7.62939453125e-06,
-    "distance_to_b_m": 0.0,
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 9.5367431640625e-07,
     "triangles_intersect": false,
     "pass": true
   },
@@ -4012,7 +5062,7 @@
       -0.2224999964237213,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -4027,7 +5077,7 @@
       -0.07249999791383743,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -4042,7 +5092,7 @@
       0.07750000059604645,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -4057,7 +5107,7 @@
       0.22749999165534973,
       0.41999998688697815
     ],
-    "frame": "Far shelter",
+    "frame": "Far shelter bench assembly",
     "label": "seat slat to bearer",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
@@ -4065,60 +5115,60 @@
     "pass": true
   },
   {
-    "a": "Far shelter bench leg -0.84 0.21",
-    "b": "Far shelter bench back upright -0.84",
-    "point": [
-      -0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Far shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.01999664306640625,
-    "distance_to_b_m": 0.02500152587890625,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Far shelter bench leg 0.84 0.21",
-    "b": "Far shelter bench back upright 0.84",
-    "point": [
-      0.84,
-      0.245,
-      0.2
-    ],
-    "frame": "Far shelter",
-    "label": "back upright to rear leg",
-    "distance_to_a_m": 0.01999664306640625,
-    "distance_to_b_m": 0.02500152587890625,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
     "a": "Pavilion — five equal steps",
-    "b": "Pavilion west wall",
+    "b": "Pavilion west front jamb",
     "point": [
       -1.6399999856948853,
-      2.5999999046325684,
+      1.5,
       0.75
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall to platform",
-    "distance_to_a_m": 1.9073486328125e-06,
+    "label": "toilet wall to platform",
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion west wall",
+    "a": "Pavilion west front jamb",
     "b": "Pavilion complete supported roof",
     "point": [
       -1.6399999856948853,
-      2.5999999046325684,
+      1.5,
       3.640000104904175
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall bearing roof",
+    "label": "toilet wall bearing roof",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 9.5367431640625e-07,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Pavilion — five equal steps",
+    "b": "Pavilion west rear jamb",
+    "point": [
+      -1.6399999856948853,
+      3.6999998092651367,
+      0.75
+    ],
+    "frame": "Pavilion assembly",
+    "label": "toilet wall to platform",
+    "distance_to_a_m": 0.0,
+    "distance_to_b_m": 0.0,
+    "triangles_intersect": true,
+    "pass": true
+  },
+  {
+    "a": "Pavilion west rear jamb",
+    "b": "Pavilion complete supported roof",
+    "point": [
+      -1.6399999856948853,
+      3.6999998092651367,
+      3.640000104904175
+    ],
+    "frame": "Pavilion assembly",
+    "label": "toilet wall bearing roof",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
@@ -4126,21 +5176,21 @@
   },
   {
     "a": "Pavilion — five equal steps",
-    "b": "Pavilion east wall",
+    "b": "Pavilion east rear wall",
     "point": [
       1.9900000095367432,
       2.5999999046325684,
       0.75
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall to platform",
-    "distance_to_a_m": 0.0,
+    "label": "toilet wall to platform",
+    "distance_to_a_m": 1.9073486328125e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion east wall",
+    "a": "Pavilion east rear wall",
     "b": "Pavilion complete supported roof",
     "point": [
       1.9900000095367432,
@@ -4148,7 +5198,7 @@
       3.640000104904175
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall bearing roof",
+    "label": "toilet wall bearing roof",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 9.5367431640625e-07,
     "triangles_intersect": true,
@@ -4156,21 +5206,21 @@
   },
   {
     "a": "Pavilion — five equal steps",
-    "b": "Pavilion rear wall",
+    "b": "Pavilion north wall",
     "point": [
       0.17500001192092896,
       4.090000152587891,
       0.75
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall to platform",
-    "distance_to_a_m": 9.5367431640625e-07,
+    "label": "toilet wall to platform",
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion rear wall",
+    "a": "Pavilion north wall",
     "b": "Pavilion complete supported roof",
     "point": [
       0.17500001192092896,
@@ -4178,7 +5228,7 @@
       3.640000104904175
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall bearing roof",
+    "label": "toilet wall bearing roof",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
@@ -4186,90 +5236,60 @@
   },
   {
     "a": "Pavilion — five equal steps",
-    "b": "Pavilion front left jamb",
+    "b": "Pavilion closed former entrance",
     "point": [
-      -1.065000057220459,
+      0.17500001192092896,
       1.1100000143051147,
       0.75
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall to platform",
+    "label": "toilet wall to platform",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion front left jamb",
+    "a": "Pavilion closed former entrance",
     "b": "Pavilion complete supported roof",
     "point": [
-      -1.065000057220459,
+      0.17500001192092896,
       1.1100000143051147,
       3.640000104904175
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall bearing roof",
+    "label": "toilet wall bearing roof",
     "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion — five equal steps",
-    "b": "Pavilion front right jamb",
+    "a": "Pavilion west front jamb",
+    "b": "Pavilion supported door lintel",
     "point": [
-      1.2400000095367432,
-      1.1100000143051147,
-      0.75
+      -1.64,
+      2.0,
+      3.4
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall to platform",
-    "distance_to_a_m": 1.9073486328125e-06,
+    "label": "door lintel front bearing",
+    "distance_to_a_m": 0.0,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
   },
   {
-    "a": "Pavilion front right jamb",
-    "b": "Pavilion complete supported roof",
+    "a": "Pavilion west rear jamb",
+    "b": "Pavilion supported door lintel",
     "point": [
-      1.2400000095367432,
-      1.1100000143051147,
-      3.640000104904175
+      -1.64,
+      3.2,
+      3.4
     ],
     "frame": "Pavilion assembly",
-    "label": "pavilion wall bearing roof",
+    "label": "door lintel rear bearing",
     "distance_to_a_m": 0.0,
-    "distance_to_b_m": 9.5367431640625e-07,
-    "triangles_intersect": true,
-    "pass": true
-  },
-  {
-    "a": "Pavilion front left jamb",
-    "b": "Pavilion supported door lintel",
-    "point": [
-      -0.6,
-      1.1,
-      3.4
-    ],
-    "frame": "Pavilion assembly",
-    "label": "door lintel left bearing",
-    "distance_to_a_m": 9.5367431640625e-07,
-    "distance_to_b_m": 9.5367431640625e-07,
-    "triangles_intersect": false,
-    "pass": true
-  },
-  {
-    "a": "Pavilion front right jamb",
-    "b": "Pavilion supported door lintel",
-    "point": [
-      0.6,
-      1.1,
-      3.4
-    ],
-    "frame": "Pavilion assembly",
-    "label": "door lintel right bearing",
-    "distance_to_a_m": 2.384185791015625e-07,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true
@@ -4284,7 +5304,7 @@
     ],
     "frame": "Pavilion assembly",
     "label": "monument seated on platform",
-    "distance_to_a_m": 0.0,
+    "distance_to_a_m": 1.9073486328125e-06,
     "distance_to_b_m": 0.0,
     "triangles_intersect": true,
     "pass": true

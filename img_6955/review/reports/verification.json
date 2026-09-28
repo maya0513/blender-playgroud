@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
+  "scene_sha256": "9a56e966b434373aba2c98b4391e02ef00804a143bc77db15358f2c03a575684",
   "outputs": {
     "final/photo": {
       "path": "renders/hamamachi_breakwater.png",
@@ -8,55 +8,7 @@
         3024,
         3024
       ],
-      "render_seconds": 100.76789653699961
-    },
-    "preview/overview": {
-      "path": "review/images/overview.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 16.009159228007775
-    },
-    "preview/shelter": {
-      "path": "review/images/shelter.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 19.585138751004706
-    },
-    "preview/ferry": {
-      "path": "review/images/ferry.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 20.59085186700395
-    },
-    "preview/reverse": {
-      "path": "review/images/reverse.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 14.539045466008247
-    },
-    "preview/pavilion": {
-      "path": "review/images/pavilion.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 18.788928496011067
-    },
-    "preview/walk": {
-      "path": "review/images/walk.png",
-      "size": [
-        1280,
-        850
-      ],
-      "render_seconds": 12.88257451899699
+      "render_seconds": 383.25613802697626
     },
     "preview/photo": {
       "path": "review/images/photo.png",
@@ -64,7 +16,7 @@
         1512,
         1512
       ],
-      "render_seconds": 16.590276552000432
+      "render_seconds": 30.275876803993015
     },
     "preview/clay": {
       "path": "review/images/clay.png",
@@ -72,8 +24,59 @@
         756,
         756
       ],
-      "render_seconds": 6.390118447990972
+      "render_seconds": 7.997221191006247
+    },
+    "preview/overview": {
+      "path": "review/images/overview.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 21.192215224000392
+    },
+    "preview/shelter": {
+      "path": "review/images/shelter.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 25.857383744005347
+    },
+    "preview/ferry": {
+      "path": "review/images/ferry.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 27.567623668990564
+    },
+    "preview/reverse": {
+      "path": "review/images/reverse.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 18.948785654996755
+    },
+    "preview/pavilion": {
+      "path": "review/images/pavilion.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 24.816989899991313
+    },
+    "preview/walk": {
+      "path": "review/images/walk.png",
+      "size": [
+        1280,
+        850
+      ],
+      "render_seconds": 16.238380173017504
     }
   },
-  "fixed_layout": true
+  "fixed_layout": true,
+  "additional_unverified_files": [
+    "renders/ferry.png"
+  ]
 }
