@@ -1,0 +1,23 @@
+Command: ['blender', '-b', '/home/maya0513/workspace/blender-playgroud/img_6955/hamamachi_breakwater.blend', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/img_6955/scripts/validate_scene.py']
+00:01.364  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/img_6955/hamamachi_breakwater.blend"
+{
+  "status": "PASS",
+  "revision": 2,
+  "scene_sha256": "a6b8cbf2067cb94b48924bcfc27186a2570ccb08dda96a09d06cadb3570ecc6b",
+  "solid_mesh_count": 1247,
+  "contact_count": 1002,
+  "contact_passed": 1002,
+  "collision_count": 313,
+  "ferry": {
+    "keel_z": -4.399999618530273,
+    "waterline_z": -1.8,
+    "hull_top_z": -0.7799999713897705,
+    "draft_m": 2.5999996185302736,
+    "parts": 843
+  },
+  "errors": [],
+  "limits": "Geometric support and sampled clearance checks. Not FEM, buoyancy simulation, regulatory verification or an engine character-controller test."
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

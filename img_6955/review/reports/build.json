@@ -1,0 +1,11 @@
+{
+  "build_seconds": 1.1245578679954633,
+  "revision": 2,
+  "objects": 1586,
+  "meshes": 1565,
+  "vertices": 27369,
+  "contacts": 1002,
+  "static_colliders": 313,
+  "ferry_parts": 843,
+  "units": "meters"
+}

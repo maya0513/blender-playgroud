@@ -1,0 +1,11 @@
+Command: ['blender', '-b', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/img_6955/scripts/build_scene.py']
+/home/maya0513/workspace/blender-playgroud/img_6955/scripts/build_scene.py:27: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*lin(rgb),1);m.use_nodes=True;n=m.node_tree.nodes;l=m.node_tree.links;b=n.get('Principled BSDF');b.inputs['Base Color'].default_value=m.diffuse_color;b.inputs['Roughness'].default_value=rough;b.inputs['Metallic'].default_value=metal
+/home/maya0513/workspace/blender-playgroud/img_6955/scripts/build_scene.py:404: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Maritime daylight world');world.use_nodes=True;n=world.node_tree.nodes;l=world.node_tree.links;n.clear();out=n.new('ShaderNodeOutputWorld');bg=n.new('ShaderNodeBackground');bg.inputs['Strength'].default_value=.65;l.new(bg.outputs[0],out.inputs[0]);tc=n.new('ShaderNodeTexCoord');sep=n.new('ShaderNodeSeparateXYZ');l.new(tc.outputs['Normal'],sep.inputs[0]);ramp=n.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].position=0;ramp.color_ramp.elements[0].color=(*lin((.74,.79,.83)),1);ramp.color_ramp.elements[1].position=.8;ramp.color_ramp.elements[1].color=(*lin((.34,.51,.71)),1);l.new(sep.outputs['Z'],ramp.inputs[0]);l.new(ramp.outputs[0],bg.inputs['Color']);s.world=world
+00:02.395  cycles           | WARNING CUEW initialization failed: Error opening the library
+Info: Saved as "hamamachi_breakwater.blend"
+BUILD_REPORT {"build_seconds": 1.1245578679954633, "revision": 2, "objects": 1586, "meshes": 1565, "vertices": 27369, "contacts": 1002, "static_colliders": 313, "ferry_parts": 843, "units": "meters"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

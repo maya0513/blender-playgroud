@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "revision": 2,
+  "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
+  "solid_mesh_count": 1247,
+  "contact_count": 1002,
+  "contact_passed": 1002,
+  "collision_count": 313,
+  "walk_routes": [
+    {
+      "route": "entry_to_main",
+      "samples": 606,
+      "max_step_m": 4.470348358154297e-08,
+      "issues": [],
+      "pass": true
+    },
+    {
+      "route": "entry_to_viewpoint",
+      "samples": 628,
+      "max_step_m": 0.18000006675720215,
+      "issues": [],
+      "pass": true
+    },
+    {
+      "route": "entry_to_pavilion",
+      "samples": 249,
+      "max_step_m": 0.15000003576278687,
+      "issues": [],
+      "pass": true
+    },
+    {
+      "route": "main_to_rear",
+      "samples": 169,
+      "max_step_m": 4.470348358154297e-08,
+      "issues": [],
+      "pass": true
+    }
+  ],
+  "ferry": {
+    "keel_z": -4.399999618530273,
+    "waterline_z": -1.8,
+    "hull_top_z": -0.7799999713897705,
+    "draft_m": 2.5999996185302736,
+    "parts": 843
+  },
+  "stairs": [
+    {
+      "name": "Viewpoint — ten equal steps",
+      "riser_m": 0.18,
+      "tread_m": 0.32,
+      "width_m": 7.199999809265137
+    },
+    {
+      "name": "Pavilion — five equal steps",
+      "riser_m": 0.15,
+      "tread_m": 0.35,
+      "width_m": 8.599999904632568
+    },
+    {
+      "name": "Ferry companionway -1 5.4",
+      "riser_m": 0.18000000000000002,
+      "tread_m": 0.28,
+      "width_m": 1.100000023841858
+    },
+    {
+      "name": "Ferry companionway -1 8.1",
+      "riser_m": 0.16666666666666666,
+      "tread_m": 0.28,
+      "width_m": 1.100000023841858
+    },
+    {
+      "name": "Ferry companionway 1 5.4",
+      "riser_m": 0.18000000000000002,
+      "tread_m": 0.28,
+      "width_m": 1.100000023841858
+    },
+    {
+      "name": "Ferry companionway 1 8.1",
+      "riser_m": 0.16666666666666666,
+      "tread_m": 0.28,
+      "width_m": 1.100000023841858
+    }
+  ],
+  "errors": [],
+  "limits": "Geometric support and sampled clearance checks. Not FEM, buoyancy simulation, regulatory verification or an engine character-controller test."
+}

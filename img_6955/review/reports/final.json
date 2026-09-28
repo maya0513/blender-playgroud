@@ -1,0 +1,24 @@
+{
+  "mode": "final",
+  "views": {
+    "photo": {
+      "image": "renders/hamamachi_breakwater.png",
+      "camera": "Photo camera",
+      "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
+      "image_sha256": "c6eaba7468757f6292d4f843e7177a82c31d5a30911b8587ea92920c96209857",
+      "render_seconds": 100.76789653699961,
+      "size": [
+        3024,
+        3024
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "samples": 128,
+      "adaptive_threshold": 0.009999999776482582,
+      "denoiser": "OPENIMAGEDENOISE",
+      "view_transform": "Standard",
+      "display_device": "sRGB"
+    }
+  }
+}

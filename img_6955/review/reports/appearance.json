@@ -1,0 +1,52 @@
+{
+  "preview": {
+    "status": "PASS",
+    "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
+    "image": "review/images/photo.png",
+    "image_sha256": "c1073d5b0ac00ff3b28d62a45de5ac83230e528eb3fff9c55afa59b78fe378b8",
+    "reference_sha256": "710e1fd103e5e46554cf3dc322c803c2c47cdfecb24689b7d535aabb13ed9430",
+    "regions": {
+      "sky": {
+        "mean_absolute_srgb_error_0_255": 0.3057810090328266,
+        "limit": 6.0,
+        "pass": true
+      },
+      "floor": {
+        "mean_absolute_srgb_error_0_255": 0.7808030660104897,
+        "limit": 6.0,
+        "pass": true
+      },
+      "structures": {
+        "mean_absolute_srgb_error_0_255": 1.355890401815512,
+        "limit": 15.0,
+        "pass": true
+      }
+    },
+    "scope": "Detect major fixed-camera appearance regressions. Photo-projected color agreement does not validate geometry or unobserved views."
+  },
+  "final": {
+    "status": "PASS",
+    "scene_sha256": "7cdff92bc3746bce0447c6704be56414bfe5c88f1fd9276da91c18f5ebb9f977",
+    "image": "renders/hamamachi_breakwater.png",
+    "image_sha256": "c6eaba7468757f6292d4f843e7177a82c31d5a30911b8587ea92920c96209857",
+    "reference_sha256": "710e1fd103e5e46554cf3dc322c803c2c47cdfecb24689b7d535aabb13ed9430",
+    "regions": {
+      "sky": {
+        "mean_absolute_srgb_error_0_255": 0.15402864066975105,
+        "limit": 6.0,
+        "pass": true
+      },
+      "floor": {
+        "mean_absolute_srgb_error_0_255": 0.3780693318084148,
+        "limit": 6.0,
+        "pass": true
+      },
+      "structures": {
+        "mean_absolute_srgb_error_0_255": 0.6121779468695768,
+        "limit": 15.0,
+        "pass": true
+      }
+    },
+    "scope": "Detect major fixed-camera appearance regressions. Photo-projected color agreement does not validate geometry or unobserved views."
+  }
+}

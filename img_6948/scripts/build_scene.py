@@ -3,7 +3,7 @@ import bpy, math, random, argparse, sys
 from pathlib import Path
 from mathutils import Vector, Matrix
 R=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('--render',action='store_true');p.add_argument('--width',type=int,default=1536);p.add_argument('--samples',type=int,default=128)
+p=argparse.ArgumentParser();p.add_argument('--render',action='store_true');p.add_argument('--width',type=int,default=3024);p.add_argument('--samples',type=int,default=128)
 a=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 if a.width<1 or a.samples<1:raise ValueError('width and samples must be positive')
 random.seed(6948)
