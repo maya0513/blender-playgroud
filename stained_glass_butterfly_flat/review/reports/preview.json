@@ -1,0 +1,41 @@
+{
+  "stage": "preview",
+  "views": {
+    "main": {
+      "image": "review/images/main.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac",
+      "image_sha256": "1bf1ae4486b8c1ab1c72507e85b0f74debf7ad5c239bb8a0a0d088e2002f2f32",
+      "seconds": 63.37023999899975,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "Standard",
+      "camera": "Camera · main"
+    },
+    "oblique": {
+      "image": "review/images/oblique.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac",
+      "image_sha256": "b8e9d0d6150cd1e5450915dda42725c9f96f8ecea4e20e749e5e510bd5479c47",
+      "seconds": 52.70101181899372,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "Standard",
+      "camera": "Camera · oblique"
+    }
+  }
+}

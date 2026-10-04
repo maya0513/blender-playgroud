@@ -1,0 +1,35 @@
+Command: ['blender', '-b', '-noaudio', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/butterfly_sculpture.blend', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/scripts/scene_tasks.py', '--', 'preview', '--threads', '16', '--views', 'side', 'rear', 'top']
+00:01.990  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/butterfly_sculpture.blend"
+/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/scripts/scene_tasks.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if any(node.type == 'TEX_IMAGE' for mat in bpy.data.materials if mat.use_nodes for node in mat.node_tree.nodes):
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 0.1, "stats": "Mem: 0M | Synchronizing object | Butterfly \u00b7 left forewing \u00b7 radial vein 00"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 30.5, "stats": "Remaining: 03:29.50 | Mem: 202M | Sample 8/64"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 89.0, "stats": "Remaining: 02:27.39 | Mem: 202M | Sample 24/64"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 147.4, "stats": "Remaining: 01:28.12 | Mem: 202M | Sample 40/64"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 201.9, "stats": "Remaining: 00:28.77 | Mem: 202M | Sample 56/64"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 238.6, "stats": "Mem: 202M | Sample 64/64"}
+RENDER_PROGRESS {"view": "side", "elapsed_seconds": 238.6, "stats": "Mem: 202M | Finished"}
+04:01.403  render           | Saved: '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/review/images/.side.rendering.png'
+04:01.408  cycles           | WARNING CUEW initialization failed: Error opening the library
+RENDER_REPORT {"image": "review/images/side.png", "size": [1024, 1024], "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603", "image_sha256": "0e2b1d512d4c1ee01309cd2b9d47538a8a8524f358c531b50effb8268bc661ff", "seconds": 238.924700381991, "samples": 64, "engine": "CYCLES", "device": "CPU", "threads": 16, "max_bounces": 16, "transmission_bounces": 12, "view_transform": "AgX", "camera": "Camera \u00b7 side", "adaptive_sampling": true, "adaptive_threshold": 0.03500000014901161, "adaptive_min_samples": 12, "denoising": true, "denoiser": "OPENIMAGEDENOISE"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 0.1, "stats": "Mem: 0M | Synchronizing object | Butterfly \u00b7 left forewing \u00b7 radial vein 00"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 52.7, "stats": "Remaining: 02:36.60 | Mem: 202M | Sample 16/64"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 96.5, "stats": "Remaining: 01:36.03 | Mem: 202M | Sample 32/64"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 140.8, "stats": "Remaining: 00:46.77 | Mem: 202M | Sample 48/64"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 191.4, "stats": "Mem: 202M | Sample 64/64"}
+RENDER_PROGRESS {"view": "rear", "elapsed_seconds": 191.4, "stats": "Mem: 202M | Finished"}
+07:13.005  render           | Saved: '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/review/images/.rear.rendering.png'
+RENDER_REPORT {"image": "review/images/rear.png", "size": [1024, 1024], "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603", "image_sha256": "53c73fff6c1376eead433b50d2a73f9d0545254b7f2fed9d8fd5a3d2806d435c", "seconds": 191.6009895310126, "samples": 64, "engine": "CYCLES", "device": "CPU", "threads": 16, "max_bounces": 16, "transmission_bounces": 12, "view_transform": "AgX", "camera": "Camera \u00b7 rear", "adaptive_sampling": true, "adaptive_threshold": 0.03500000014901161, "adaptive_min_samples": 12, "denoising": true, "denoiser": "OPENIMAGEDENOISE"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 0.1, "stats": "Mem: 0M | Synchronizing object | Butterfly \u00b7 left forewing \u00b7 radial vein 00"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 56.4, "stats": "Remaining: 02:47.94 | Mem: 202M | Sample 16/64"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 105.0, "stats": "Remaining: 01:44.56 | Mem: 202M | Sample 32/64"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 149.5, "stats": "Remaining: 00:49.70 | Mem: 202M | Sample 48/64"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 198.5, "stats": "Mem: 202M | Sample 64/64"}
+RENDER_PROGRESS {"view": "top", "elapsed_seconds": 198.5, "stats": "Mem: 202M | Finished"}
+10:31.668  render           | Saved: '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/sculpture/review/images/.top.rendering.png'
+RENDER_REPORT {"image": "review/images/top.png", "size": [1024, 1024], "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603", "image_sha256": "93ef94eca103fbad098a58b2e873339a5223dce2176646b22ad64329f7cbbf45", "seconds": 198.6622559410025, "samples": 64, "engine": "CYCLES", "device": "CPU", "threads": 16, "max_bounces": 16, "transmission_bounces": 12, "view_transform": "AgX", "camera": "Camera \u00b7 top", "adaptive_sampling": true, "adaptive_threshold": 0.03500000014901161, "adaptive_min_samples": 12, "denoising": true, "denoiser": "OPENIMAGEDENOISE"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit
+
+Elapsed: 632.037s; exit code: 0

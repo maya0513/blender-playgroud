@@ -1,0 +1,9 @@
+{
+  "kind": "flat",
+  "scene": "butterfly_flat.blend",
+  "reference": "IMG_5534.JPG",
+  "references": ["IMG_5534.JPG"],
+  "reference_hashes": {"IMG_5534.JPG": "dd8a83e2dfe673e97d3029f8147ff882da69623c28276c179f653f29d9686a9d"},
+  "views": ["main", "oblique"],
+  "revision": 1
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+  "checks": [
+    "build",
+    "validation",
+    "preview:main",
+    "preview:side",
+    "preview:rear",
+    "preview:top",
+    "final:main",
+    "reference:glass_sculpture_target.png",
+    "reference:glass_sculpture_angles.png"
+  ],
+  "final_image": "renders/final.png",
+  "comparison": "review/images/comparison.png",
+  "views": "review/images/views.png"
+}

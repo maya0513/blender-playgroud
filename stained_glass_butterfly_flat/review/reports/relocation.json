@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "previous_directory": "stained_glass_butterfly/flat",
+  "current_directory": "stained_glass_butterfly_flat",
+  "unchanged_model_images_and_scripts": [
+    "butterfly_flat.blend",
+    "photos/IMG_5534.JPG",
+    "renders/final.png",
+    "review/images/comparison.png",
+    "review/images/main.png",
+    "review/images/oblique.png",
+    "review/images/preview_comparison.png",
+    "review/images/traced_design.png",
+    "review/images/views.png",
+    "scripts/build_scene.py",
+    "scripts/common.py",
+    "scripts/project.json",
+    "scripts/run.py",
+    "scripts/scene_tasks.py",
+    "scripts/traced_design.json",
+    "scripts/vectorize_reference.py",
+    "scripts/verify_outputs.py"
+  ],
+  "blender_reference_and_render_paths": "Relative paths resolve in the relocated project",
+  "validation": "PASS",
+  "verification": "PASS"
+}

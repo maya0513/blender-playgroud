@@ -1,0 +1,11 @@
+Command: ['blender', '-b', '-noaudio', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/butterfly_flat.blend', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/scripts/scene_tasks.py', '--', 'final', '--threads', '16']
+00:03.556  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/butterfly_flat.blend"
+/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/scripts/scene_tasks.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if any(node.type == 'TEX_IMAGE' for mat in bpy.data.materials if mat.use_nodes for node in mat.node_tree.nodes):
+15:53.413  render           | Saved: '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/renders/.final.rendering.png'
+RENDER_REPORT {"image": "renders/final.png", "size": [2048, 2048], "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac", "image_sha256": "cc56215c8f7686fb6b18b473892d170304bba97db348c085c4f235c2142ea970", "seconds": 947.922790030003, "samples": 512, "engine": "CYCLES", "device": "CPU", "threads": 16, "max_bounces": 16, "transmission_bounces": 12, "view_transform": "Standard", "camera": "Camera \u00b7 main"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit
+
+Elapsed: 953.992s; exit code: 0

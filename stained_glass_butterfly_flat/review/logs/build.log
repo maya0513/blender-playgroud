@@ -1,0 +1,13 @@
+Command: ['blender', '-b', '-noaudio', '-t', '16', '--python-exit-code', '1', '--python', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/scripts/scene_tasks.py', '--', 'build', '--threads', '16']
+00:03.356  cycles           | WARNING CUEW initialization failed: Error opening the library
+FLAT_GEOMETRY {"panes": 276, "leading": 54}
+/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly/flat/scripts/scene_tasks.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if any(node.type == 'TEX_IMAGE' for mat in bpy.data.materials if mat.use_nodes for node in mat.node_tree.nodes):
+00:19.348  image.write      | ERROR OpenImageIO write failed: Could not open file "/home/maya0513/.cache/thumbnails/large/blender_5_73227093451e381e23f66c6720e2face.png.png"
+情報: 「.butterfly_flat.building.blend」で保存しました
+BUILD_REPORT {"status": "PASS", "errors": [], "kind": "flat", "objects": 667, "glass_objects": 276, "mesh_vertices": 510940, "packed_references": 1, "geometry_policy": "Closed glass volumes; no image-texture artwork or external linked libraries.", "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac", "build_seconds": 16.052159792001476}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit
+
+Elapsed: 19.965s; exit code: 0

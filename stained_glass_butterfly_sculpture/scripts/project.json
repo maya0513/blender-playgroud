@@ -1,0 +1,12 @@
+{
+  "kind": "sculpture",
+  "scene": "butterfly_sculpture.blend",
+  "reference": "glass_sculpture_target.png",
+  "references": ["glass_sculpture_target.png", "glass_sculpture_angles.png"],
+  "reference_hashes": {
+    "glass_sculpture_target.png": "2c7c804cbb3466c0a27baa8c3243deb283eb423c8ece5c0c00681a69e335b745",
+    "glass_sculpture_angles.png": "5460b5b2b20fdce9967e2d7601fbdc00836366f2cab498f0333ddee4a02a41ea"
+  },
+  "views": ["main", "side", "rear", "top"],
+  "revision": 1
+}

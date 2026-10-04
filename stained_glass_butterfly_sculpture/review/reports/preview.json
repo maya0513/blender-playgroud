@@ -1,0 +1,92 @@
+{
+  "stage": "preview",
+  "views": {
+    "main": {
+      "image": "review/images/main.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+      "image_sha256": "f073c52f2cd084d2a09e1e440af24c16e795b83adf504005dec92ce79e0dd372",
+      "seconds": 319.1599985859939,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "AgX",
+      "camera": "Camera · main"
+    },
+    "side": {
+      "image": "review/images/side.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+      "image_sha256": "0e2b1d512d4c1ee01309cd2b9d47538a8a8524f358c531b50effb8268bc661ff",
+      "seconds": 238.924700381991,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "AgX",
+      "camera": "Camera · side",
+      "adaptive_sampling": true,
+      "adaptive_threshold": 0.03500000014901161,
+      "adaptive_min_samples": 12,
+      "denoising": true,
+      "denoiser": "OPENIMAGEDENOISE"
+    },
+    "rear": {
+      "image": "review/images/rear.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+      "image_sha256": "53c73fff6c1376eead433b50d2a73f9d0545254b7f2fed9d8fd5a3d2806d435c",
+      "seconds": 191.6009895310126,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "AgX",
+      "camera": "Camera · rear",
+      "adaptive_sampling": true,
+      "adaptive_threshold": 0.03500000014901161,
+      "adaptive_min_samples": 12,
+      "denoising": true,
+      "denoiser": "OPENIMAGEDENOISE"
+    },
+    "top": {
+      "image": "review/images/top.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+      "image_sha256": "93ef94eca103fbad098a58b2e873339a5223dce2176646b22ad64329f7cbbf45",
+      "seconds": 198.6622559410025,
+      "samples": 64,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "AgX",
+      "camera": "Camera · top",
+      "adaptive_sampling": true,
+      "adaptive_threshold": 0.03500000014901161,
+      "adaptive_min_samples": 12,
+      "denoising": true,
+      "denoiser": "OPENIMAGEDENOISE"
+    }
+  }
+}

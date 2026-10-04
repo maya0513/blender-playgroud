@@ -1,0 +1,28 @@
+{
+  "stage": "final",
+  "views": {
+    "main": {
+      "image": "renders/final.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+      "image_sha256": "e640f5341f373c84498887e24e898b22113333e9c8c90cf89a34941c14f60c86",
+      "seconds": 9055.047716019995,
+      "samples": 512,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "AgX",
+      "camera": "Camera · main",
+      "adaptive_sampling": true,
+      "adaptive_threshold": 0.009999999776482582,
+      "adaptive_min_samples": 32,
+      "denoising": true,
+      "denoiser": "OPENIMAGEDENOISE"
+    }
+  }
+}

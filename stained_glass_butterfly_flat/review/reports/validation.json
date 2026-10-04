@@ -1,0 +1,1671 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "kind": "flat",
+  "objects": 667,
+  "glass_objects": 276,
+  "mesh_vertices": 510940,
+  "packed_references": 1,
+  "glass_normals": "Consistent outward normals and positive signed volumes",
+  "thickness_checked_objects": 276,
+  "glass_thickness": [
+    {
+      "object": "Glass pane 000",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 001",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 002",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 003",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 004",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 005",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 006",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 007",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 008",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 009",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 010",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 011",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 012",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 013",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 014",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 015",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 016",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 017",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 018",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 019",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 020",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 021",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 022",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 023",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 024",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 025",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 026",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 027",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 028",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 029",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 030",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 031",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 032",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 033",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 034",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 035",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 036",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 037",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 038",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 039",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 040",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 041",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 042",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 043",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 044",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 045",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 046",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 047",
+      "minimum_m": 0.002000200329348445,
+      "maximum_m": 0.002000200329348445,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 048",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 049",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 050",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 051",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 052",
+      "minimum_m": 0.002000200329348445,
+      "maximum_m": 0.002000200329348445,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 053",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 054",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 055",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 056",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 057",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 058",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 059",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 060",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 061",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 062",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 063",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 064",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 065",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 066",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 067",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 068",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 069",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 070",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 071",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 072",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 073",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 074",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 075",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 076",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 077",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 078",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 079",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 080",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 081",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 082",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 083",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 084",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 085",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 086",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 087",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 088",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 089",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 090",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 091",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 092",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 093",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 094",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 095",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 096",
+      "minimum_m": 0.002000200329348445,
+      "maximum_m": 0.002000200329348445,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 097",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 098",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 099",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 100",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 101",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 102",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 103",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 104",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 105",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 106",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 107",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 108",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 109",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 110",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 111",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 112",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 113",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 114",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 115",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 116",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 117",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 118",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 119",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 120",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 121",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 122",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 123",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 124",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 125",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 126",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 127",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 128",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 129",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 130",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 131",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 132",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 133",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 134",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 135",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 136",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 137",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 138",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 139",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 140",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 141",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 142",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 143",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 144",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 145",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 146",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 147",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 148",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 149",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 150",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 151",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 152",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 153",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 154",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 155",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 156",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 157",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 158",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 159",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 160",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 161",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 162",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 163",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 164",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 165",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 166",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 167",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 168",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 169",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 170",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 171",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 172",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 173",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 174",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 175",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 176",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 177",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 178",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 179",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 180",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 181",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 182",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 183",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 184",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 185",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 186",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 187",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 188",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 189",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 190",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 191",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 192",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 193",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 194",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 195",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 196",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 197",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 198",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 199",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 200",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 201",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 202",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 203",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 204",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 205",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 206",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 207",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 208",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 209",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 210",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 211",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 212",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 213",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 214",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 215",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 216",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 217",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 218",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 219",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 220",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 221",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 222",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 223",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 224",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 225",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 226",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 227",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 228",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 229",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 230",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 231",
+      "minimum_m": 0.002000200329348445,
+      "maximum_m": 0.002000200329348445,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 232",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 233",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 234",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 235",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 236",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 237",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 238",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 239",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 240",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 241",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 242",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 243",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 244",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 245",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 246",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 247",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 248",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 249",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 250",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 251",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 252",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 253",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 254",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 255",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 256",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 257",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 258",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 259",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 260",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 261",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 262",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 263",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 264",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 265",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 266",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 267",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 268",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 269",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 270",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 271",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 272",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 273",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 274",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    },
+    {
+      "object": "Glass pane 275",
+      "minimum_m": 0.0020000003278255463,
+      "maximum_m": 0.0020000003278255463,
+      "nominal_m": 0.002
+    }
+  ],
+  "geometry_policy": "Closed glass volumes; no image-texture artwork or external linked libraries.",
+  "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac"
+}

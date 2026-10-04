@@ -1,0 +1,5 @@
+00:01.528  blend            | Read blend: "/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly_flat/butterfly_flat.blend"
+RELOCATION_PATH_CHECK {"status": "PASS", "references": ["photos/IMG_5534.JPG"], "render": "renders/final.png"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

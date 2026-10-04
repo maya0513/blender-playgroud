@@ -1,0 +1,23 @@
+{
+  "stage": "final",
+  "views": {
+    "main": {
+      "image": "renders/final.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac",
+      "image_sha256": "cc56215c8f7686fb6b18b473892d170304bba97db348c085c4f235c2142ea970",
+      "seconds": 947.922790030003,
+      "samples": 512,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "threads": 16,
+      "max_bounces": 16,
+      "transmission_bounces": 12,
+      "view_transform": "Standard",
+      "camera": "Camera · main"
+    }
+  }
+}

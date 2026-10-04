@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "kind": "flat",
+  "objects": 667,
+  "glass_objects": 276,
+  "mesh_vertices": 510940,
+  "packed_references": 1,
+  "geometry_policy": "Closed glass volumes; no image-texture artwork or external linked libraries.",
+  "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac",
+  "build_seconds": 16.052159792001476
+}

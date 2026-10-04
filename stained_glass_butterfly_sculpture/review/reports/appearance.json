@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "stage": "final",
+  "scene_sha256": "db17dfa5cc199e405f785a0e685cc64bee9f9eaab7471ffdbfb521f7c319a603",
+  "reviewed_views": [
+    "final main",
+    "preview side",
+    "preview rear",
+    "preview top"
+  ],
+  "checks": [
+    "Complete main butterfly, three satellite butterflies, wave crest, lower curls, droplets and glass base",
+    "Pink/cream/lavender curved wings and blue/cyan/clear wave palette",
+    "Glass thickness and curved ribbon depth remain visible in other views",
+    "Rear camera remains inside the studio backdrop",
+    "Reference guides do not appear in renders"
+  ],
+  "notes": [
+    "Wing mosaic, fine internal sparkle and flowing glass contours are geometric approximations of the reference.",
+    "The rendered reflection and caustic patterns differ from the reference photograph."
+  ],
+  "preview_comparison": "review/images/preview_comparison.png",
+  "final_comparison": "review/images/comparison.png"
+}

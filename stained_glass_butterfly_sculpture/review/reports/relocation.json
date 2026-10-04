@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "previous_directory": "stained_glass_butterfly/sculpture",
+  "current_directory": "stained_glass_butterfly_sculpture",
+  "unchanged_model_images_and_scripts": [
+    "butterfly_sculpture.blend",
+    "photos/glass_sculpture_angles.png",
+    "photos/glass_sculpture_target.png",
+    "renders/final.png",
+    "review/images/comparison.png",
+    "review/images/main.png",
+    "review/images/preview_comparison.png",
+    "review/images/rear.png",
+    "review/images/side.png",
+    "review/images/top.png",
+    "review/images/views.png",
+    "scripts/build_scene.py",
+    "scripts/common.py",
+    "scripts/project.json",
+    "scripts/run.py",
+    "scripts/scene_tasks.py",
+    "scripts/verify_outputs.py"
+  ],
+  "blender_reference_and_render_paths": "Relative paths resolve in the relocated project",
+  "validation": "PASS",
+  "verification": "PASS"
+}

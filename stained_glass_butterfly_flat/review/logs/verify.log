@@ -1,0 +1,4 @@
+Command: ['/usr/bin/python3', '/home/maya0513/workspace/blender-playgroud/stained_glass_butterfly_flat/scripts/verify_outputs.py']
+{"status": "PASS", "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac", "checks": ["build", "validation", "preview:main", "preview:oblique", "final:main", "reference:IMG_5534.JPG"], "final_image": "renders/final.png", "comparison": "review/images/comparison.png", "views": "review/images/views.png"}
+
+Elapsed: 0.684s; exit code: 0

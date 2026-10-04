@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "stage": "final",
+  "scene_sha256": "d526fd7df5f45c624657cda30d6cb52e66393ad1160febd1b05c4c5fab5b5bac",
+  "reviewed_views": [
+    "final main",
+    "preview oblique"
+  ],
+  "checks": [
+    "Complete reference composition and crop",
+    "Pink/cream butterfly and blue/aqua/lavender scroll palette",
+    "Closed 2 mm glass volumes and raised dark leading",
+    "Visible thickness and separate components in oblique view",
+    "No filled negative openings or opaque panes covering glass"
+  ],
+  "notes": [
+    "Continuous source gradients are approximated by the average tint of each glass pane.",
+    "640 small pearl inclusions approximate the drawn glitter."
+  ],
+  "final_comparison": "review/images/comparison.png"
+}
